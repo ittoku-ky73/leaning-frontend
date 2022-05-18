@@ -1,6 +1,7 @@
 # leaning-frontend
 
 > このリポジトリでは、フロントエンドを学ぶ上で大事なこと、使えることを書いていきます。
+> https://developer.mozilla.org/ja/docs/Learn/Front-end_web_developer
 
 ## 基本的なソフトウェアのインストール
 
