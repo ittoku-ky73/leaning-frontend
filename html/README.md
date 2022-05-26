@@ -1,26 +1,12 @@
-# HTML
+# HTML(Hyper Text Markup Language)
 
-> [HTML](https://developer.mozilla.org/ja/docs/Glossary/HTML) は、要素で構成される極めてシンプルな言語です。
->
-> テキストの断片に、文書における他とは異なる意味（段落、箇条書き、表など）を与え、
->
-> 文書を論理的なセクションに構成し（ヘッダがあるのか、コンテンツを３段組にするのか）、
->
-> ページに画像や動画のようなコンテンツを貼り付けるために使うことができる
+> 参考：[HTML（意味付けと構造）](https://developer.mozilla.org/ja/docs/Learn/Front-end_web_developer#html（意味付けと構造）)
 
-## ガイド
+所要時間：35-50時間
 
-> Ref: https://developer.mozilla.org/ja/docs/Learn/HTML/Introduction_to_HTML
+モジュール
 
-- [HTML 入門](https://developer.mozilla.org/ja/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
-- [Headとは? HTML のメタデータ](https://developer.mozilla.org/ja/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
-- [HTML テキストの基礎](https://developer.mozilla.org/ja/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals)
-- [ハイパーリンクを作成する](https://developer.mozilla.org/ja/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks)
-- [上級のテキスト整形](https://developer.mozilla.org/ja/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting)
-- [文書とウェブサイトの構造](https://developer.mozilla.org/ja/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
-- [HTML をデバッグする](https://developer.mozilla.org/ja/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML)
+1. Introduction_to_HTML
+2. Multimedia_and_embedding
+3. Tables
 
-## 試す
-
-- [手紙をマークアップする](https://developer.mozilla.org/ja/docs/Learn/HTML/Introduction_to_HTML/Marking_up_a_letter)
-- [コンテンツページを構造化する](https://developer.mozilla.org/ja/docs/Learn/HTML/Introduction_to_HTML/Structuring_a_page_of_content)
