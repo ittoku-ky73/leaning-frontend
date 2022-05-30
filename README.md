@@ -1,225 +1,25 @@
 # leaning-frontend
 
+> 参考：https://developer.mozilla.org/ja/docs/Learn/Front-end_web_developer
+>
 > このリポジトリでは、フロントエンドを学ぶ上で大事なこと、使えることを書いていきます。
-> https://developer.mozilla.org/ja/docs/Learn/Front-end_web_developer
 
-## 基本的なソフトウェアのインストール
+## 読んでいく順序
 
-> Web開発をするのに必要なツールの紹介、そのツールの適切なインストール方法について
->
-> Ref: https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/Installing_basic_software
+1. web/
 
-- パソコン
-- Windows
-  - Mac 😀
-  - Linux
-- テキストエディタ
-  - Visual Studio Code😀
-  - Notepad++
-  - Sublime Text
-  - Atom
-  - GNU Emacs
-  - vim😀
-- ブラウザ
-  - Firefox
-  - Chrome😀
-  - Opera
-  - Safari
-  - Internet Explorer
-  - Microsoft Edge
-  - Lynx
-- 画像編集ソフト
-  - GIMP😀
-  - Paint.NET
-  - Photoshop
-- バージョン管理システム
-  - Git😀
-  - GitHub😀
-- FTPプログラム
-  - Cyberduck😀
-  - Fetch
-  - FileZilla
-- 自動化システム
-  - Grunt😀
-  - Gulp
-
-
-
-## WebおよびWeb標準
-
-> Webに関する有用な背景、どのように生まれたのか、Web標準テクノロジーとはなにか、どのように連携するのか、などを説明する
->
-> Ref: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/The_web_and_web_standards
-
-### Webの簡単な歴史
-
-- 1960年代後半に米軍が[ARPANET](https://developer.mozilla.org/en-US/docs/Glossary/Arpanet)と呼ばれる通信ネットワークを開発した。これは「パケット交換」や「TCP/IP」の最初の実装を特徴としていたため、Webの先駆者とみなすことだできる。この２つは、**インターネットが構築されているインフラストラクチャの基盤**を形成している
-- 1980年、Tim Berners-Leeが、異なるノード間のリンクの概念を特徴するENQUIREと呼ばれるノートプログラムを作成する
-- 1990年後半には、TimBLは「HTTP」「HTML」「WorldWideWeb」を作成する
-
-### Web標準
-
-- Webサイトを構築するために使用するテクノロジーのこと
-- 標準化団体
-  - [WHATWG](https://whatwg.org/)
-  - [ECMA](https://www.ecma-international.org/)
-  - [Khronos](https://www.khronos.org/)
-
-### オープンスタンダード
-
-- Web標準の重要な側面の１つは、特許やライセンスに邪魔されることなく自由に貢献することができ、誰でも無料でWebサイトを構築するためのコードを記述することができる
-
-### Webを壊さないでください
-
-- それはつまり、導入される新しいWebテクノロジーは、以前のものと下位互換性がある必要があること
-
-### Web開発者であることは良いことです
-
-- 唯一の定数は変化です。
-
-### 最新のWebテクノロジーの概要
-
-- ブラウザ
-  - Webブラウザは、人々がWebを利用するために使用するソフトウェアプログラム
-- HTTP(Hyper Text Transfer Protocol)
-  - WebブラウザがWebサーバー（Webサイトが保存されている場所）と通信できるようにするメッセージプロトコル。実際の構文は、人間が読める形式ではないが、こんな感じ
-
-```text
-"Hello web server. Can you give me the files I need to render bbc.co.uk"?
-
-"Sure thing web browser — here you go"
-
-[Downloads files and renders web page]
-```
-
-#### HTML, CSS, JavaScript
-- **HTML(Hyper Text Markup Language)**は、コンテンツをラップ（マークアップ）して意味（セマンティクス）と構造を与えることのでき、さまざまな要素で構成されるマークアップ言語
-
-```html
-<h1>This is a top-level heading</h1>
-
-<p>This is a paragraph of text.</p>
-
-<img src="cat.jpg" alt="A picture of my cat">
-```
-
-- **CSS(Cascade Style Sheet)**は、テキストや背景色の設定、境界線の追加、アニメーション、特定の方法でのページのレイアウトなど、HTMLにスタイルを適用するためにルールベースの言語
-
-```css
-p {
-  color: red;
-}
-```
-
-- **JavaScript**は、動的なスタイルの切り替えから、サーバーからフェッチ、複雑な3Dグラフィックまで、Webサイトに双方向性を追加するために使用するプログラミング言語
-
-```javascript
-let pElem = document.querySelector('p');
-pElem.textContent = 'We changed the text!';
-```
-
-### ツール
-
-- ブラウザの開発者ツール
-- テストツール
-- リンター
-- ミニファイア
-
-### サーバー側の言語とフレームワーク
-
-- HTML, CSS, JavaScriptはフロントエンド（クライアント側）言語。
-- ASP.NEt, Python, PHP, Rubyはバックエンド（サーバー側）言語。結果がブラウザに送信されて表示される前に、サーバー上で実行される。
-- 一般的には、データベースからデータを取得＞データを含むHTMLを生成＞HTMLをブラウザに送信してユーザに表示の流れ
-
-### Webのベストプラクティス
-
-- Web開発を行う場合、不確実性の主な原因は、各ユーザーがWebサイトを表示するテクノロジーの組み合わせがわからない事実です
-  - ユーザー1は、小さくて狭い画面のiPhoneでそれを見ている可能性があります。
-  - ユーザー2は、ワイドスクリーンモニターが接続されたWindowsラップトップでそれを見ている可能性があります。
-  - ユーザー3は目が見えず、スクリーンリーダーを使用してWebページを読み上げている可能性があります。
-  - ユーザー4は、最新のブラウザーを実行できない非常に古いデスクトップマシンを使用している可能性があります。
-- このため、防御的に設計する必要がある。つまりWebサイトをできるだけ柔軟にして、上記の全てのユーザが同じようにならない場合でも、Webサイトを利用できるようにする
-
-- **ブラウザ間の互換性**
-  - Webページができるだけ多くのデバイスで機能することを確認すること。
-
-- **レスポンシブウェブデザイン**
-  - 機能とレイアウトを柔軟にして様々なブラウザに自動的に適用できるようにすること
-- **パフォーマンス**
-  - Webサイトをできるだけ早くロードするだけでなく、ユーザーがイライラして別の場所に移動しないように、Webサイトを直感的で使いやすいものにすること
-- **アクセシビリティ**
-  - できるだけ多くの異なる種類の人々がWebサイトを使用できるようにすること。それは、視覚障害、聴覚障害、認知障害。また、若者や老人、異文化の人々、モバイルデバイスを使用している人々、ネットワーク接続の信頼性の低いか遅い人々など
-- **国際化**
-  - さまざまな言語を自分の言語で話すさまざまな文化の人々がWebサイトを使用できるようにすること。
-- **プライバシーとセキュリティ**
-  - プライバシーは、人々が個人的にビジネスを行うことを許可し、彼らをスパイしたり、絶対に必要以上のデータを収集したりしないこと。セキュリティは、悪意のあるユーザーがWebサイトに含まれる情報をあなたやあなたのユーザーから盗むことがないように、Webサイトを構築すること
-
-## 学び、助けを得る
-
-> Web開発の学習をさらに深めるのに役に立つヒントを提供する。
->
-> Ref: https://developer.mozilla.org/en-US/docs/Learn/Learning_and_getting_help
-
-### さまざまな学習方法
-
-- 集中学習
-  - 低レベルのトピックに深く集中して、特定の問題を解決する学習
-  - この学習方法は、特定の主題に集中し、深い問題解決に取り組むので、必要な技術の習得に向いている
-- 拡散学習
-  - 広い領域で高度な思考と関係で、異なるものの間でつながりを見つける学習
-  - この学習方法は、これまでに遭遇したことのない新しい課題の解決に向いている
-
-### さまざまな学習教材
-
-- テキスト記事
-  - 忘れた可能性のある詳細を検索するのに向いている
-- ビデオ
-  - 概念と新機能の簡単な説明を知るのに向いている
-- インタラクティブなコードの遊び場
-  - とりあえず試したいという時に向いている
-
-### 計画を立てる
-
-- 目標
-  - ２年後にはプロのWeb開発者になりたい、地元の職場のウェブサイトを構築するのに十分なことを学びたい、など
-  - 完全な初心者から3か月で上級Web開発者になりたい、会社を立ち上げ、2年以内にFacebookをしのぐソーシャルネットワークを構築したい、などは良くない
-- 必要になるもの
-  - 材料
-    - コンピュータ
-    - インターネット
-    - ペンと紙
-  - 知識
-    - HTML, CSS, JavaScript、および関連するツール
-    - ドメインの取得、ホスティング、Webサイトやアプリケーションの公開方法
-
-- どのくらいの時間とお金がかかるか
-- 週に何時間専念する必要があるか
-  - また、毎週何をしたかを記録しておくほうが良い
-- やる気を維持する
-  - 作業環境をできるだけ生産的にする
-  - 定期的に休憩する
-  - 食べて、運動して、寝る
-  - 自分に報酬を与える
-  - 共同学習とデモ
-
-### 効果的な問題解決
-
-- 物事を分割して考える
-  - 分割することにより、問題を簡潔に理解することができる
-- パターンを学び、認識する
-  - 問題を解決することができたら、解決方法をメモしたり、最小限のコード例をどこかのディレクトリに保存したほうが良い
-
-### 練習する
-
-- 問題解決の練習をすればするほど、その領域での脳の神経経路が強くなり、その特定の問題の詳細と論理を思い出しやすくなる
-
-### 助けを得る
-
-- 効果的なウェブ検索
-- エラーメッセージ
-- ブラウザのテスト
-  - 特定のブラウザでのみ発生しているか、その他のブラウザでも同様に発生しているか
-- MDNの使用
-- その他のオンラインリソース
-  - Stack Overflowなど
-- 物理的な交流会
+   1. installing_basic_software.md
+   2. leaning_and_getting_help.md
+   3. the_web_and_standards.md
+2. html/
+   1. introduction_to_HTML/
+      1. getting_started.md
+      2. the_head_metadata_in_html.md
+      3. HTML_text_fundamentals.md
+      4. Creating_hyperlinks.md
+      5. Advanced_text_formatting.md
+      6. document_and_websote_structure.md
+      7. debugging_html.md
+      8. markup_letter.html
+      9. structuring_a_page_of_content
+   2. Multimedia_and_embedding/
