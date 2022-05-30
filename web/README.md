@@ -18,3 +18,7 @@
 
 > leaning_and_getting_help.md
 
+4. [ファイルの扱い](https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/)
+
+> dealing_with_files.md
+

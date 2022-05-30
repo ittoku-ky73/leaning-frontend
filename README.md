@@ -11,6 +11,7 @@
    1. [installing_basic_software.md](https://github.com/ittoku703/leaning-frontend/blob/main/web/installing_basic_software.md)
    2. [the_web_and_standards.md](https://github.com/ittoku703/leaning-frontend/blob/main/web/the_web_and_web_standards.md)
    3. [leaning_and_getting_help.md](https://github.com/ittoku703/leaning-frontend/blob/main/web/learning_and_getting_help.md)
+   3. [dealing_with_files.md](https://github.com/ittoku703/leaning-frontend/blob/main/web/dealing_with_files.md)
 2. html/
    1. introduction_to_HTML/
       1. [getting_started.md](https://github.com/ittoku703/leaning-frontend/blob/main/html/Introduction_to_HTML/getting_started.md)
