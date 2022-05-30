@@ -7,17 +7,29 @@
 ### ガイド
 
 1. [HTMLの画像](https://developer.mozilla.org/ja/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML)
+   - images_in_HTML.md
 2. [動画と音声のコンテンツ](https://developer.mozilla.org/ja/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content)
+   - video_and_audio_content.md
 3. [\<object>から\<iframe\>へ — その他の埋め込み技術](https://developer.mozilla.org/ja/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies)
+   - other_embedding_technologies.md
+
 4. [Webにベクターグラフィックスを追加する](https://developer.mozilla.org/ja/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web)
+   - adding_vector_graphics_to_the_Web.md
+
 5. [レスポンシブ画像](https://developer.mozilla.org/ja/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+   - responsive_images.md
+
 
 ### 評価試験
 
 - [Mozillaのスプラッシュページ](https://developer.mozilla.org/ja/docs/Learn/HTML/Multimedia_and_embedding/Mozilla_splash_page)
+  - mozilla_splash_page/
+
 
 ### 関連情報
 
 - [画像の上にヒットマップを追加する](https://developer.mozilla.org/ja/docs/Learn/HTML/Howto/Add_a_hit_map_on_top_of_an_image)
+- add_a_hit_map_on_top_of_an_image/
 
 - [Webリテラシーの基礎 2](https://teach.mozilla.org/activities/web-lit-basics-two/)
+  - web-lit-basics-two/

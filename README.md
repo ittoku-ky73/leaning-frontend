@@ -24,3 +24,4 @@
       8. [markup_letter.html](https://github.com/ittoku703/leaning-frontend/blob/main/html/Introduction_to_HTML/markup_letter.html)
       9. [structuring_a_page_of_content](https://github.com/ittoku703/leaning-frontend/tree/main/html/Introduction_to_HTML/structuring_a_page_of_content)
    2. Multimedia_and_embedding/
+      1. [動画と音声のコンテンツ](https://github.com/ittoku703/leaning-frontend/tree/main/html/video_and_audio_content.md)
