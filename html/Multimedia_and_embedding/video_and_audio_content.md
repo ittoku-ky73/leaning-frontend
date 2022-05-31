@@ -1,6 +1,6 @@
 # 動画と音声のコンテンツ
 
-> 参考：[動画と音声のコンテンツ](https://github.com/ittoku703/leaning-frontend/tree/main/html/video_and_audio_content.md)
+> 参考：[動画と音声のコンテンツ](https://developer.mozilla.org/ja/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content)
 >
 > ここではHTML文書に、`<video>`と`<audio>`要素を使って、動画と音声のプレイヤーを追加する方法や、動画にキャプションや字幕を追加する方法について説明します。
 
