@@ -8,21 +8,21 @@
 
 1. web/
 
-   1. [installing_basic_software.md](https://github.com/ittoku703/leaning-frontend/blob/main/web/installing_basic_software.md)
-   2. [the_web_and_standards.md](https://github.com/ittoku703/leaning-frontend/blob/main/web/the_web_and_web_standards.md)
-   3. [leaning_and_getting_help.md](https://github.com/ittoku703/leaning-frontend/blob/main/web/learning_and_getting_help.md)
-   3. [dealing_with_files.md](https://github.com/ittoku703/leaning-frontend/blob/main/web/dealing_with_files.md)
+   1. [基本的なソフトウェアのインストール](https://github.com/ittoku703/leaning-frontend/blob/main/web/installing_basic_software.md)
+   2. [WebおよびWeb標準](https://github.com/ittoku703/leaning-frontend/blob/main/web/the_web_and_web_standards.md)
+   3. [学び、助けを得る](https://github.com/ittoku703/leaning-frontend/blob/main/web/learning_and_getting_help.md)
+   3. [ファイルの扱い](https://github.com/ittoku703/leaning-frontend/blob/main/web/dealing_with_files.md)
 2. html/
    1. introduction_to_HTML/
-      1. [getting_started.md](https://github.com/ittoku703/leaning-frontend/blob/main/html/Introduction_to_HTML/getting_started.md)
-      2. [the_head_metadata_in_html.md](https://github.com/ittoku703/leaning-frontend/blob/main/html/Introduction_to_HTML/the_head_metadata_in_html.md)
-      3. [HTML_text_fundamentals.md](https://github.com/ittoku703/leaning-frontend/blob/main/html/Introduction_to_HTML/HTML_text_fundamentals.md)
-      4. [creating_hyperlinks.md](https://github.com/ittoku703/leaning-frontend/blob/main/html/Introduction_to_HTML/creating_hyperlinks.md)
-      5. [advanced_text_formatting.md](https://github.com/ittoku703/leaning-frontend/blob/main/html/Introduction_to_HTML/advanced_text_fomatting.md)
-      6. [document_and_website_structure.md](https://github.com/ittoku703/leaning-frontend/blob/main/html/Introduction_to_HTML/document_and_website_structure.md)
-      7. [debugging_html.md](https://github.com/ittoku703/leaning-frontend/blob/main/html/Introduction_to_HTML/debugging_html.md)
-      8. [markup_letter.html](https://github.com/ittoku703/leaning-frontend/blob/main/html/Introduction_to_HTML/markup_letter.html)
-      9. [structuring_a_page_of_content](https://github.com/ittoku703/leaning-frontend/tree/main/html/Introduction_to_HTML/structuring_a_page_of_content)
+      1. [HTMLを始めよう](https://github.com/ittoku703/leaning-frontend/blob/main/html/Introduction_to_HTML/getting_started.md)
+      2. [headとは？HTMLのメタデータ](https://github.com/ittoku703/leaning-frontend/blob/main/html/Introduction_to_HTML/the_head_metadata_in_html.md)
+      3. [HTMLテキストの基礎](https://github.com/ittoku703/leaning-frontend/blob/main/html/Introduction_to_HTML/HTML_text_fundamentals.md)
+      4. [ハイパーリンクの作成](https://github.com/ittoku703/leaning-frontend/blob/main/html/Introduction_to_HTML/creating_hyperlinks.md)
+      5. [高度なあテキスト処理](https://github.com/ittoku703/leaning-frontend/blob/main/html/Introduction_to_HTML/advanced_text_fomatting.md)
+      6. [ドキュメントとWebサイトの構造](https://github.com/ittoku703/leaning-frontend/blob/main/html/Introduction_to_HTML/document_and_website_structure.md)
+      7. [HTMLのデバッグ](https://github.com/ittoku703/leaning-frontend/blob/main/html/Introduction_to_HTML/debugging_html.md)
+      8. [手紙のマークアップ](https://github.com/ittoku703/leaning-frontend/blob/main/html/Introduction_to_HTML/markup_letter.html)
+      9. [ページのコンテンツ構造](https://github.com/ittoku703/leaning-frontend/tree/main/html/Introduction_to_HTML/structuring_a_page_of_content)
    2. Multimedia_and_embedding/
       1. [HTMLの画像](https://github.com/ittoku703/leaning-frontend/blob/main/html/Multimedia_and_embedding/images_in_HTML.md)
       2. [動画と音声のコンテンツ](https://github.com/ittoku703/leaning-frontend/blob/main/html/Multimedia_and_embedding/video_and_audio_content.md)
