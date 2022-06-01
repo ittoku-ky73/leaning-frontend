@@ -9,4 +9,3 @@
 1. Introduction_to_HTML
 2. Multimedia_and_embedding
 3. Tables
-

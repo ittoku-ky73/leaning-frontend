@@ -12,6 +12,7 @@
    2. [WebおよびWeb標準](https://github.com/ittoku703/leaning-frontend/blob/main/web/the_web_and_web_standards.md)
    3. [学び、助けを得る](https://github.com/ittoku703/leaning-frontend/blob/main/web/learning_and_getting_help.md)
    3. [ファイルの扱い](https://github.com/ittoku703/leaning-frontend/blob/main/web/dealing_with_files.md)
+
 2. html/
    1. introduction_to_HTML/
       1. [HTMLを始めよう](https://github.com/ittoku703/leaning-frontend/blob/main/html/Introduction_to_HTML/getting_started.md)
@@ -23,8 +24,10 @@
       7. [HTMLのデバッグ](https://github.com/ittoku703/leaning-frontend/blob/main/html/Introduction_to_HTML/debugging_html.md)
       8. [手紙のマークアップ](https://github.com/ittoku703/leaning-frontend/blob/main/html/Introduction_to_HTML/markup_letter.html)
       9. [ページのコンテンツ構造](https://github.com/ittoku703/leaning-frontend/tree/main/html/Introduction_to_HTML/structuring_a_page_of_content)
+
    2. Multimedia_and_embedding/
+
       1. [HTMLの画像](https://github.com/ittoku703/leaning-frontend/blob/main/html/Multimedia_and_embedding/images_in_HTML.md)
       2. [動画と音声のコンテンツ](https://github.com/ittoku703/leaning-frontend/blob/main/html/Multimedia_and_embedding/video_and_audio_content.md)
       3. [objectからiframeへ、その他の埋め込み技術](https://github.com/ittoku703/leaning-frontend/blob/main/html/Multimedia_and_embedding/other_embedding_technologies.md)
-
+      4. [ウェブにベクターグラフィックスを追加する](https://github.com/ittoku703/leaning-frontend/blob/main/html/Multimedia_and_embedding/adding_vector_graphics_to_the_web.md)
