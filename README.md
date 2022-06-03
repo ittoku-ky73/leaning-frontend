@@ -31,3 +31,4 @@
       2. [動画と音声のコンテンツ](https://github.com/ittoku703/leaning-frontend/blob/main/html/Multimedia_and_embedding/video_and_audio_content.md)
       3. [objectからiframeへ、その他の埋め込み技術](https://github.com/ittoku703/leaning-frontend/blob/main/html/Multimedia_and_embedding/other_embedding_technologies.md)
       4. [ウェブにベクターグラフィックスを追加する](https://github.com/ittoku703/leaning-frontend/blob/main/html/Multimedia_and_embedding/adding_vector_graphics_to_the_web.md)
+      5. [レスポンシブ画像](https://github.com/ittoku703/leaning-frontend/blob/main/html/Multimedia_and_embedding/responsive_images.md)
