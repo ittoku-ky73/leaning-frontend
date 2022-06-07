@@ -24,12 +24,3 @@
 
 - [Mozillaのスプラッシュページ](https://developer.mozilla.org/ja/docs/Learn/HTML/Multimedia_and_embedding/Mozilla_splash_page)
   - mozilla_splash_page/
-
-
-### 関連情報
-
-- [画像の上にヒットマップを追加する](https://developer.mozilla.org/ja/docs/Learn/HTML/Howto/Add_a_hit_map_on_top_of_an_image)
-- add_a_hit_map_on_top_of_an_image/
-
-- [Webリテラシーの基礎 2](https://teach.mozilla.org/activities/web-lit-basics-two/)
-  - web-lit-basics-two/
