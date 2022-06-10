@@ -23,14 +23,13 @@
       7. [HTMLのデバッグ](https://github.com/ittoku703/leaning-frontend/blob/main/html/Introduction_to_HTML/debugging_html.md)
       8. [手紙のマークアップ](https://github.com/ittoku703/leaning-frontend/blob/main/html/Introduction_to_HTML/markup_letter.html)
       9. [ページのコンテンツ構造](https://github.com/ittoku703/leaning-frontend/tree/main/html/Introduction_to_HTML/structuring_a_page_of_content)
-	2. Multimedia_and_embedding/
-   
+   2. Multimedia_and_embedding/
       1. [HTMLの画像](https://github.com/ittoku703/leaning-frontend/blob/main/html/Multimedia_and_embedding/images_in_HTML.md)
       2. [動画と音声のコンテンツ](https://github.com/ittoku703/leaning-frontend/blob/main/html/Multimedia_and_embedding/video_and_audio_content.md)
       3. [objectからiframeへ、その他の埋め込み技術](https://github.com/ittoku703/leaning-frontend/blob/main/html/Multimedia_and_embedding/other_embedding_technologies.md)
       4. [ウェブにベクターグラフィックスを追加する](https://github.com/ittoku703/leaning-frontend/blob/main/html/Multimedia_and_embedding/adding_vector_graphics_to_the_web.md)
       5. [レスポンシブ画像](https://github.com/ittoku703/leaning-frontend/blob/main/html/Multimedia_and_embedding/responsive_images.md)
-      5. [Mozillaのスプラッシュページ](https://github.com/ittoku703/leaning-frontend/blob/main/html/Multimedia_and_embedding/mozilla_splash_page/)
+      6. [Mozillaのスプラッシュページ](https://github.com/ittoku703/leaning-frontend/blob/main/html/Multimedia_and_embedding/mozilla_splash_page/)
    3. Tables
       1. [HTMLテーブルの基本](https://github.com/ittoku703/leaning-frontend/blob/main/html/Tables/basics.md)
       2. [HTMLテーブルの高度な機能とアクセシビリティ](https://github.com/ittoku703/leaning-frontend/blob/main/html/Tables/advanced.md)
