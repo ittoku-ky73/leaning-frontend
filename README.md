@@ -44,6 +44,10 @@
    2. CSSの構成要素
       1. [カスケードと継承](https://github.com/ittoku703/leaning-frontend/blob/main/css/Building_blocks/cascade_and_inheritance.md)
       2. [CSSセレクター](https://github.com/ittoku703/leaning-frontend/blob/main/css/Building_blocks/selectors.md)
+         1. [要素・クラス・IDによるセレクター](https://github.com/ittoku703/leaning-frontend/blob/main/css/Building_blocks/type_class_and_id_selectors.md)
+         2. [属性セレクター](https://github.com/ittoku703/leaning-frontend/blob/main/css/Building_blocks/attribute_selectors.md)
+         3. [擬似クラスと擬似要素](https://github.com/ittoku703/leaning-frontend/blob/main/css/Building_blocks/pseudo-classes_and_pseudo-elements.md)
+         4. [結合子](https://github.com/ittoku703/leaning-frontend/blob/main/css/Building_blocks/combinators.md)
       3. [ボックスモデル](https://github.com/ittoku703/leaning-frontend/blob/main/css/Building_blocks/the_box_model.md)
       4. [テキスト方向の操作](https://github.com/ittoku703/leaning-frontend/blob/main/css/Building_blocks/handling_different_text_directions.md)
       5. [要素のはみ出し](https://github.com/ittoku703/leaning-frontend/blob/main/css/Building_blocks/overflowing_content.md)
