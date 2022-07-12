@@ -1,0 +1,17 @@
+参考：https://developer.mozilla.org/ja/docs/Learn/CSS/Building_blocks/A_cool_looking_box
+
+setup
+- [x] index.html, style.cssをコピーする。
+- [x] CSSをHTMLに適用する。
+
+styling box
+p要素に次の装飾を施す。
+- [x] 幅を200pxにする。
+- [x] テキストを中央揃えにする。
+- [x] フォントを18pxにする（remで指定）。
+- [x] デザインの基本色をボックスに適用する。
+- [x] テキストに影をつける。
+- [x] 基本色に似た色より少し暗い色で、1pxの境界線をつける。
+- [x] 右下に向かう半透明の黒色の線形グラデーションをつける。初めは透明で、30%ずつ不透明度を0.2上昇させていき、最終的に基本色にする。
+- [x] ボックスに影をつける。
+
