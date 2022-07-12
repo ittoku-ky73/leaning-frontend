@@ -1,0 +1,19 @@
+参考：https://developer.mozilla.org/ja/docs/Learn/CSS/Building_blocks/Creating_fancy_letterheaded_paper
+
+setup
+- [x] index.html, style.cssをコピーする。
+- [x] top, bottom, logo画像をコピーする。
+
+process
+- [x] CSSをHTMLに適用する。
+- [x] 手紙の上部、下部に画像を適用する。
+- [x] 手紙の上部、下部で暗くする半透明のグラデーションを追加する。
+- [x] 背景画像をサポートしていないブラウザのために、別のbackground-colorを追加する。
+- [x] 手紙に白い背景色を追加する。
+- [x] 手紙の一番上と下に、1mmの境界線を追加する。
+
+logo
+- [x] h1にロゴを背景画像として追加する。
+- [x] ロゴにフィルタを追加し、ドロップシャドウを付与する。
+- [x] フィルタをコメントアウトし、丸い画像の形に沿った別の方法のドロップシャドウを実装する。
+
