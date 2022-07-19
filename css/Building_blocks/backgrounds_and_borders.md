@@ -98,7 +98,7 @@
 
 ### 背景に関する指定をまとめて行う
 
-`background`プロパティで背景に関する指定をまとめて行うことができる。
+`background`プロパティで背景に関する指定をまとめて行うことができる。順番は`<attachment>, <bg-image>, <position>, <bg-size>, repeat-style>`で、bg-sizeの値はpositonの直後にスラッシュ（/）で区切らなければいけない。
 
 ```css
 .box {
