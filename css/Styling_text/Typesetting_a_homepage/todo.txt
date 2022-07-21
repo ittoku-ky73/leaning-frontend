@@ -1,0 +1,33 @@
+参考：https://developer.mozilla.org/ja/docs/Learn/CSS/Styling_text/Typesetting_a_homepage
+
+setup
+- [x] HTML, CSS, 外部リンクを入手する。
+
+project
+  font
+    - [x] フォントをダウンロードする。何でも良い。
+    - [x] @font-faceを生成する。
+    - [x] 本文フォントと、見出しフォントを適用する。
+  styling text
+    - [x] サイト全体を`font-size: 10px;`にする。
+    - [x] 見出しや他の要素には、相対単位を使用して`font-size`を指定します。
+    - [x] 本文に適切な`line-height`を使用します。
+    - [x] トップの見出しを中央寄せに配置します。
+    - [x] 見出しに適度な`letter-spacing`をつけます。
+    - [x] 必要に応じて本文に`letter-spacing, word-spacing`を使用します。
+    - [x] <section>の各見出しの後の段落に`text-indent: 20px;`を使用します。
+  styling link
+    - [x] ページ上部と下部にある水平バーの色に合わせて、:link, :focus, :hoverを設定します。
+    - [x] ホバーかフォーカスをすると下線が消えるようにします。
+    - [x] フォーカスアウトラインを取り除きます。
+    - [x] :activeを目立つように、しかしページデザインを崩さない程度に装飾します。
+    - [x] 外部リンクにextarnal-link-52.pngを挿入する。
+  styling list
+    - [x] リストとリスト項目の間隔を、`line-height`をつかって同じにする。
+    - [x] リスト項目にふさわしい行頭記号を付ける。
+  nav
+    - [x] ルックアンドフィールが適切になるように装飾する。
+
+hint
+- HTMLはいじらなくて良い。
+- ナビゲーションメニューは絶対にボタンに見せる必要はないが、本文より少し高い場所に配置した方が良い。
