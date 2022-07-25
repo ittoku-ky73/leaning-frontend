@@ -81,3 +81,15 @@
       11. [古いブラウザーのサポート](https://github.com/ittoku-ky73/leaning-frontend/blob/main/css/CSS_layout/supporting_older_browsers.md)
       12. [基礎的なレイアウトの理解](https://github.com/ittoku-ky73/leaning-frontend/blob/main/css/CSS_layout/Fundamental_Layout_Comprehension/)
 	  13. [実用的な位置指定の例](https://github.com/ittoku-ky73/leaning-frontend/blob/main/css/CSS_layout/Practical_positioning_examples/)
+
+## GitHub Pages
+
+- [手紙のマークアップ](https://ittoku-ky73.github.io/leaning-frontend/html/Introduction_to_HTML/markup_letter)
+- [バードウォッチング](https://ittoku-ky73.github.io/leaning-frontend/html/Introduction_to_HTML/structuring_a_page_of_content)
+- [Mozillaスプラッシュページ](https://ittoku-ky73.github.io/leaning-frontend/html/Multimedia_and_embedding/mozilla_splash_page)
+- [惑星データ](https://ittoku-ky73.github.io/leaning-frontend/html/Tables/structuring_planet_data)
+- [スタイルされた記事のページ](https://ittoku-ky73.github.io/leaning-frontend/css/First_steps/styling_a_biography_page)
+- [IDカード](https://ittoku-ky73.github.io/leaning-frontend/css/Building_blocks/Fundamental_CSS_comprehension)
+- [装飾的なレターヘッド付きの便箋の作成](https://ittoku-ky73.github.io/leaning-frontend/css/Building_blocks/Creating_fancy_letterheaded_paper)
+- [かっこいいボックス](https://ittoku-ky73.github.io/leaning-frontend/css/Building_blocks/A_cool_looking_box)
+- [コミュニティスクールのホームページ作成](https://ittoku-ky73.github.io/leaning-frontend/css/Styling_text/Typesetting_a_homepage)
