@@ -80,7 +80,20 @@
       10. [過去のレイアウト方法](https://github.com/ittoku-ky73/leaning-frontend/blob/main/css/CSS_layout/legacy_layout_methods.md)
       11. [古いブラウザーのサポート](https://github.com/ittoku-ky73/leaning-frontend/blob/main/css/CSS_layout/supporting_older_browsers.md)
       12. [基礎的なレイアウトの理解](https://github.com/ittoku-ky73/leaning-frontend/blob/main/css/CSS_layout/Fundamental_Layout_Comprehension/)
-	  13. [実用的な位置指定の例](https://github.com/ittoku-ky73/leaning-frontend/blob/main/css/CSS_layout/Practical_positioning_examples/)
+2. JavaScript
+   1. JavaScriptの第一歩
+      1. [JavaScriptとは](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/First_steps/what_is_javascript.md)
+      2. [最初のダイブ](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/First_steps/a_first_splash.md)
+      3. [JavaScriptのトラブルシューティング](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/First_steps/what_went_wrong.md)
+      4. [変数](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/First_steps/variables.md)
+      5. [数値と演算子](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/First_steps/math.md)
+      6. [文字列](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/First_steps/string.md)
+      7. [便利な文字列メソッド](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/First_steps/useful_string_methods.md)
+      8. [配列](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/First_steps/array.md)
+   2. JavaScriptの構成要素
+   3. クライアントサイドWeb API
+   4. JavaScriptオブジェクト入門
+   5. 非同期JavaScript
 
 ## GitHub Pages
 
@@ -95,4 +108,4 @@
 - [コミュニティスクールのホームページ作成](https://ittoku-ky73.github.io/leaning-frontend/css/Styling_text/Typesetting_a_homepage)
 - [基本レイアウトの理解](https://ittoku-ky73.github.io/leaning-frontend/css/CSS_layout/Fundamental_Layout_Comprehension)
 - [実用的な位置指定の例](https://ittoku-ky73.github.io/leaning-frontend/css/CSS_layout/Practical_positioning_examples)
-
+- [バカ話ジェネレーター](https://ittoku-ky73.github.io/leaning-frontend/js/First_steps/Silly_story_generator)
