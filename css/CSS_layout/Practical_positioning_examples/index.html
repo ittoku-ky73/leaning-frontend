@@ -1,3 +1,4 @@
+<!-- Reference: https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Practical_positioning_examples -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,11 +6,76 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Practical positioning examples</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	実用的な位置指定の例
+	<!-- Info Box -->
+	<section class="info-box">
+		<ul>
+			<li><a href="#" class="active">Tab 1</a></li>
+			<li><a href="#">Tab 2</a></li>
+			<li><a href="#">Tab 3</a></li>
+		</ul>
+		<div class="panels">
+			<article class="active-panel">
+				<h2>The first tab</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis nibh, porttitor nec
+					venenatis eu, pulvinar in augue. Vestibulum et orci scelerisque, vulputate tellus quis, lobortis
+					dui. Vivamus varius libero at ipsum mattis efficitur ut nec nisl. Nullam eget tincidunt metus. Donec
+					ultrices, urna maximus consequat aliquet, dui neque eleifend lorem, a auctor libero turpis at sem.
+					Aliquam ut porttitor urna. Nulla facilisi.
+				</p>
+			</article>
+			<article>
+				<h2>The second tab</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis nibh, porttitor nec
+					venenatis eu, pulvinar in augue. Vestibulum et orci scelerisque, vulputate tellus quis, lobortis
+					dui. Vivamus varius libero at ipsum mattis efficitur ut nec nisl. Nullam eget tincidunt metus. Donec
+					ultrices, urna maximus consequat aliquet, dui neque eleifend lorem, a auctor libero turpis at sem.
+					Aliquam ut porttitor urna. Nulla facilisi.
+				</p>
+			</article>
+			<article>
+				<h2>The third tab</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis nibh, porttitor nec
+					venenatis eu, pulvinar in augue. Vestibulum et orci scelerisque, vulputate tellus quis, lobortis
+					dui. Vivamus varius libero at ipsum mattis efficitur ut nec nisl. Nullam eget tincidunt metus. Donec
+					ultrices, urna maximus consequat aliquet, dui neque eleifend lorem, a auctor libero turpis at sem.
+					Aliquam ut porttitor urna. Nulla facilisi.
+				</p>
+				<ol>
+					<li>dui neque eleifend lorem, a auctor libero turpis at sem.</li>
+					<li>Aliquam ut porttitor urna.</li>
+					<li>Nulla facilisi</li>
+				</ol>
+			</article>
+			<script src="script.js"></script>
+		</div>
+	</section>
+
+	<!-- Hidden Info Panel -->
+	<div class="hidden-info-panel">
+		<label for="toggle">❔</label>
+		<input type="checkbox" name="toggle" id="toggle">
+		<aside>
+			<h2>Information</h2>
+			<p>Some very important information about your app:</p>
+			<ol>
+				<li>It has a really cool slide-out information box.</li>
+				<li>This information box uses a combination of fixed positioning and a CSS transition for the smooth
+					sliding.</li>
+				<li>It also uses a cool technique called the <a
+						href="https://css-tricks.com/the-checkbox-hack/">checkbox hack</a>.</li>
+				<li>This allows you to create a nice "toggle on/toggle off" UI effect without using any JavaScript,
+					which will work in IE9 and above (the smooth transition will work in IE10 and above.)</li>
+			</ol>
+		</aside>
+	</div>
 </body>
 
 </html>

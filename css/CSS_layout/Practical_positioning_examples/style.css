@@ -1,0 +1,102 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/*
+ * Info Box
+ */
+.info-box {
+    width: 450px;
+    height: 400px;
+    padding: 16px;
+}
+
+.info-box ul {
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.info-box li {
+    float: left;
+    list-style-type: none;
+    width: 150px;
+}
+
+.info-box li a {
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    line-height: 3;
+    background-color: red;
+    color: black;
+    text-align: center;
+}
+
+.info-box li a:focus,
+.info-box li a:hover {
+    background-color: #a60000;
+    color: white;
+}
+
+.info-box li a.active {
+    background-color: #a60000;
+    color: white;
+}
+
+.info-box .panels {
+    height: 352px;
+    position: relative;
+    clear: both;
+}
+
+.info-box article {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 352px;
+    padding: 10px;
+    color: white;
+    background-color: #a60000;
+}
+
+.info-box .active-panel {
+    z-index: 1;
+}
+
+/* 
+ * Hidden Info Panel 
+ */
+.hidden-info-panel label[for="toggle"] {
+    font-size: 3rem;
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.hidden-info-panel input[type="checkbox"] {
+    position: absolute;
+    top: -100px;
+}
+
+.hidden-info-panel aside {
+    background-color: #a60000;
+    color: white;
+    width: 340px;
+    height: 100%;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    right: -370px;
+    transition: 0.6s all;
+}
+
+.hidden-info-panel input[type="checkbox"]:checked+aside {
+    right: 0px;
+    z-index: 2;
+}
