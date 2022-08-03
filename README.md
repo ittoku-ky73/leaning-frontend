@@ -93,3 +93,4 @@
 - [装飾的なレターヘッド付きの便箋の作成](https://ittoku-ky73.github.io/leaning-frontend/css/Building_blocks/Creating_fancy_letterheaded_paper)
 - [かっこいいボックス](https://ittoku-ky73.github.io/leaning-frontend/css/Building_blocks/A_cool_looking_box)
 - [コミュニティスクールのホームページ作成](https://ittoku-ky73.github.io/leaning-frontend/css/Styling_text/Typesetting_a_homepage)
+- [基本レイアウトの理解](https://ittoku-ky73.github.io/leaning-frontend/css/CSS_layout/Fundamental_Layout_Comprehension)

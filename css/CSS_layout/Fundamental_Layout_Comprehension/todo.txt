@@ -1,0 +1,11 @@
+参考：https://developer.mozilla.org/ja/docs/Learn/CSS/CSS_layout/Fundamental_Layout_Comprehension
+
+set up
+[x] - HTML, CSS, Imageをダウンロード。URL: https://github.com/mdn/learning-area/tree/main/css/css-layout/fundamental-layout-comprehension
+
+task
+[x] - ナビゲーション項目を、項目間に等間隔のスペースを置き1行に表示する。
+[x] - ナビゲーションバーはコンテンツと一緒にスクロールし、ビューポート上部に達すると固定される。
+[x] - 記事の中にある画像は、囲むようにテキストを配置する。
+[x] - article, aside要素は、2列のレイアウトとして表示する。ウィンドウが小さくなると列が狭くなるように、柔軟なサイズにする。
+[x] - 写真は、画像間に1ピクセルの間隔を開けて2列のグリッドとして表示する。
