@@ -108,4 +108,5 @@
 - [コミュニティスクールのホームページ作成](https://ittoku-ky73.github.io/leaning-frontend/css/Styling_text/Typesetting_a_homepage)
 - [基本レイアウトの理解](https://ittoku-ky73.github.io/leaning-frontend/css/CSS_layout/Fundamental_Layout_Comprehension)
 - [実用的な位置指定の例](https://ittoku-ky73.github.io/leaning-frontend/css/CSS_layout/Practical_positioning_examples)
+- [数当て予想ゲーム](https://ittoku-ky73.github.io/leaning-frontend/js/First_steps/Number_guessing_game)
 - [バカ話ジェネレーター](https://ittoku-ky73.github.io/leaning-frontend/js/First_steps/Silly_story_generator)

@@ -1,0 +1,35 @@
+<!-- Reference: https://developer.mozilla.org/ja/docs/Learn/JavaScript/First_steps/A_first_splash -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Number guessing game</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="number-guessing-game">
+		<h1>Number guessing game</h1>
+		<p class="screen">
+			This is a game of guessing numbers.
+			you enter a number, you will get a hint as to whether the number is larger or smaller than the correct
+			answer.
+			so use the hints to guess the correct number!
+		</p>
+		<div class="form">
+			<label for="guessField">Enter the guess: </label>
+			<input type="number" name="guessField" id="guessField" required>
+			<button type="submit" class="guessSubmit">Guessing</button>
+		</div>
+
+		<p class="range">Range: </p>
+		<p class="remaining">Remaining: </p>
+		<p class="recording">Guessing numbers: </p>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>

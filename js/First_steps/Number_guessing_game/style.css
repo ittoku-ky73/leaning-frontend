@@ -1,0 +1,93 @@
+.number-guessing-game {
+    max-width: 500px;
+    padding: 1rem;
+    border: 2px dashed #4f9faf;
+
+    background-color: #eee;
+    margin: 0 auto;
+}
+
+.number-guessing-game h1 {
+    font-family: cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+}
+
+.number-guessing-game .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.number-guessing-game .form label {
+    font-style: italic;
+}
+
+.number-guessing-game .form input {
+    font-size: 1rem;
+}
+
+.number-guessing-game .form button {
+    font-size: 1rem;
+    font-weight: normal;
+    color: black;
+    background-color: #eee;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    cursor: pointer;
+}
+
+.number-guessing-game .form button:hover {
+    background-color: #ddd;
+}
+
+.number-guessing-game .form button:focus {
+    background-color: #ccc;
+}
+
+.number-guessing-game .remaining,
+.number-guessing-game .range {
+    text-align: right;
+    margin: 0;
+}
+
+.number-guessing-game .recording {
+    padding-left: 0rem;
+    border-bottom: 1px solid #4f9faf;
+}
+
+.number-guessing-game .screen {
+    min-height: 120px;
+    padding: 1rem;
+    background-color: #ccc;
+}
+
+.number-guessing-game .screen.gameclear {
+    background-color: #6e6;
+}
+
+.number-guessing-game .screen.gameover {
+    background-color: #e66;
+}
+
+.number-guessing-game .playbtn {
+    font-family: serif;
+    font-size: 1rem;
+    display: block;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border: 2px dashed #4f9faf;
+    border-radius: 0.5rem;
+}
+
+.number-guessing-game .playbtn:hover {
+    background-color: #ddd;
+}
+
+.number-guessing-game .playbtn:active {
+    background-color: #ccc;
+}
