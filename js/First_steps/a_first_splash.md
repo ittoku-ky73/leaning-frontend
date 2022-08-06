@@ -41,9 +41,121 @@
       3. プレイヤーが次のゲームを始められるようなコントロールを表示する。
 7. ゲームがもう一度始まったら、画面とロジックをリセットし、1に戻る。
 
-このゲームは実際に[数字当てゲーム](https://ittoku-ky73.github.io/leaning-frontend/js/First_steps/Number_guessing_game)に書いていきます。コードの書き方などは[こちら](https://developer.mozilla.org/ja/docs/Learn/JavaScript/First_steps/A_first_splash#initial_setup)をご覧ください。ここでは書きません。
+### 初めに
 
-**ソースコード**
+コードを入力するには`script`タグの中に書くか、`src`属性にJavaScriptファイルのパスを書くかです。
+
+```html
+<script></script>
+```
+
+### データを保持する変数を追加する
+
+変数を定義するときは、`let, const`キーワードを使用します。書き方は、キーワード、変数名、=（イコール）、値、;（セミコロン）の順で書きます。
+
+```js
+var hoge = 0;
+let randomNumber = 0;
+const numberGuessingGame = const MIN_GUESS_NUMBER = 10;
+document.querySelector('.number-guessing-game');
+```
+
+### 関数
+
+関数は再利用可能なコードの塊です。何度も実行することができるため、同じコードを書く手間を省けます。書き方は、function、関数名、{（ブラケット）、コード、}（ブラケット）、で書きます。実行は、関数名、()（かっこ）、です
+
+```js
+function hogeBar() {
+  console.log('hogebar');
+}
+
+hogeBar();
+```
+
+### 演算子
+
+値の確認をしたり、計算、文字の結合など、いろいろなことができます。
+
+```js
+1 + 1 // -> 2
+2 - 1 // -> 1
+2 * 2 // -> 4
+9 / 3 // -> 3
+
+let hoge = 'hoge';
+let bar = 'bar';
+let hogebar = hoge + bar;
+hogebar // -> "hogebar"
+hogebar += 'baz' // -> "hogebarbaz"
+
+5 === 2 + 4 // -> false
+'hoge' === 'baz' // -> false
+5 === 5 // -> true
+2 === '2' // -> false
+
+5 !== 2 + 4 // -> true
+'hoge' !== 'baz' // -> true
+5 !== 5 // -> false
+2 !== '2' // -> true
+
+5 < 10 // -> true
+5 > 10 // -> false
+```
+
+### 条件式
+
+```js
+let name = 'hoge';
+
+if (name === 'hoge') {
+  console.log('my name is hoge');
+}
+else if (name === 'bar') {
+  console.log('my name is bar');
+}
+else {
+  console.log('my name is not hoge');
+}
+```
+
+### イベント
+
+```js
+const body = document.querySelector('bady');
+
+body.addEventListener('click', webPageClicked);
+
+function webPageClicked() {
+  alert('yeah !! this page clicked !');
+}
+```
+
+### ゲームを完成させる
+
+飛ばす。
+
+### ループ（繰り返し）
+
+```js
+for (var i=0; i<100; i++) {
+  console.log(`loop count: ${i}`);
+}
+
+const lists = document.querySelectorAll('ul li');
+lists.forEach(function(list, index) {
+  list.textContent = `list${index}`;
+});
+```
+
+### オブジェクトについて（簡単に）
+
+飛ばす。
+
+### ブラウザのオブジェクトで遊ぼう
+
+上記で学んだことは、ブラウザの開発者ツールで実際に試すことができます。
+
+### ソースコード（github）
 
 - [数当てゲーム（mdn）](https://github.com/mdn/learning-area/blob/master/javascript/introduction-to-js-1/first-splash/number-guessing-game.html)
 - [数当てゲーム（自作）](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/First_steps/Number_guessing_game/)
