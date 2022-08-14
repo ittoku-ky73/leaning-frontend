@@ -91,6 +91,12 @@
       7. [便利な文字列メソッド](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/First_steps/useful_string_methods.md)
       8. [配列](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/First_steps/array.md)
    2. JavaScriptの構成要素
+      1. [条件文](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Building_blocks/conditionals.md)
+      2. [ループコード](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Building_blocks/looping_code.md)
+      3. [関数](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Building_blocks/functions.md)
+      4. [独自の関数](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Building_blocks/build_your_own_function.md)
+      5. [関数の戻り値](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Building_blocks/return_values.md)
+      6. [イベント](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Building_blocks/events.md)
    3. クライアントサイドWeb API
    4. JavaScriptオブジェクト入門
    5. 非同期JavaScript
@@ -110,3 +116,4 @@
 - [実用的な位置指定の例](https://ittoku-ky73.github.io/leaning-frontend/css/CSS_layout/Practical_positioning_examples)
 - [数当て予想ゲーム](https://ittoku-ky73.github.io/leaning-frontend/js/First_steps/Number_guessing_game)
 - [バカ話ジェネレーター](https://ittoku-ky73.github.io/leaning-frontend/js/First_steps/Silly_story_generator)
+- [イメージギャラリー](https://ittoku-ky73.github.io/leaning-frontend/js/Building_blocks/image_gallery)

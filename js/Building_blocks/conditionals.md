@@ -1,0 +1,4 @@
+# 条件文
+
+> 参考：https://developer.mozilla.org/ja/docs/Learn/JavaScript/Building_blocks/conditionals
+
