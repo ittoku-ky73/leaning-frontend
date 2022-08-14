@@ -1,24 +1,46 @@
-body {
+html {
     font-family: helvetica, sans-serif;
-    width: 350px;
 }
 
-label {
-    font-weight: bold;
+body {
+    margin: 0;
 }
 
-div {
-    padding-bottom: 20px;
+.silly-story-generator {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    max-width: 500px;
+    background-color: #eee;
 }
 
-input[type="text"] {
-    padding: 5px;
-    width: 150px;
+.silly-story-generator h1 {
+    margin: 0;
+    text-align: center;
 }
 
-p {
-    background: #FFC125;
-    color: #5E2612;
-    padding: 10px;
+.silly-story-generator label,
+.silly-story-generator span {
+    font-style: italic;
+}
+
+.silly-story-generator input[type="text"] {
+    font-size: 1rem;
+}
+
+.silly-story-generator button {
+    font-size: 1rem;
+    font-family: monospace;
+}
+
+.silly-story-generator p {
+    background: #fff;
+    color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+    line-height: 1.5rem;
     visibility: hidden;
 }
