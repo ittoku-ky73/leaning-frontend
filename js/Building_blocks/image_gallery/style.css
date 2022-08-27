@@ -41,3 +41,11 @@ button {
   float: left;
   cursor: pointer;
 }
+
+.overlay.light {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay.dark {
+  background-color: rgba(0, 0, 0, 0);
+}
