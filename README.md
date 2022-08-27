@@ -99,7 +99,7 @@
       6. [イベント](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Building_blocks/events.md)
    3. クライアントサイドWeb API
       1. [Web APIの紹介](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Client-side_web_APIs/introduction.md)
-      2. [ドキュメントの操作](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Client-side_web_APIs/maniqulating_documents.md)
+      2. [ドキュメントの操作](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Client-side_web_APIs/manipulating_documents.md)
       3. [サーバーからのデータ取得](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Client-side_web_APIs/fetching_data.md)
       4. [サードパーティAPI](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Client-side_web_APIs/third_party_APIs.md)
       5. [グラフィックの描画](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Client-side_web_APIs/drawing_graphics.md)
