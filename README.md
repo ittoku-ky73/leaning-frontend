@@ -97,7 +97,16 @@
       4. [独自の関数](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Building_blocks/build_your_own_function.md)
       5. [関数の戻り値](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Building_blocks/return_values.md)
       6. [イベント](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Building_blocks/events.md)
-   3. クライアントサイドWeb API
+   3. JavaScriptオブジェクト入門
+      1. [JavaScriptオブジェクトの基本](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Objects/basics.md)
+      2. [初心者のためのオブジェクト指向JavaScript](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Objects/oojs.md)
+      3. [Objectのプロトタイプ](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Objects/object_prototypes.md)
+      4. [JavaScriptでの継承](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Objects/classes_in_javascript.md)
+      5. [JSONの操作](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Objects/json.md)
+      6. [オブジェクト構築の練習](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Objects/object_building_practice.md)
+   4. 非同期JavaScript
+      1. 
+   5. クライアントサイドWeb API
       1. [Web APIの紹介](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Client-side_web_APIs/introduction.md)
       2. [ドキュメントの操作](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Client-side_web_APIs/manipulating_documents.md)
       3. [サーバーからのデータ取得](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Client-side_web_APIs/fetching_data.md)
@@ -105,8 +114,6 @@
       5. [グラフィックの描画](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Client-side_web_APIs/drawing_graphics.md)
       6. [動画と音声のAPI](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Client-side_web_APIs/video_and_audio_APIs.md)
       7. [クライアントサイドストレージ](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Client-side_web_APIs/client-side_storage.md)
-   4. JavaScriptオブジェクト入門
-   5. 非同期JavaScript
 
 ## GitHub Pages
 
@@ -124,3 +131,4 @@
 - [数当て予想ゲーム](https://ittoku-ky73.github.io/leaning-frontend/js/First_steps/Number_guessing_game)
 - [バカ話ジェネレーター](https://ittoku-ky73.github.io/leaning-frontend/js/First_steps/Silly_story_generator)
 - [イメージギャラリー](https://ittoku-ky73.github.io/leaning-frontend/js/Building_blocks/image_gallery)
+- [バウンシングボールゲーム](https://ittoku-ky73.github.io/leaning-frontend/js/Objects/Adding_bouncing_balls_features)
