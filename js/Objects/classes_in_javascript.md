@@ -1,4 +1,4 @@
-# JavaScriptでの継承
+# JavaScriptの継承
 
 > 参考：https://developer.mozilla.org/ja/docs/Learn/JavaScript/Objects/Classes_in_JavaScript
 
@@ -102,7 +102,6 @@ Object.defineProperty(Teacher.prototype, 'constructor', {
 ```js
 Teacher.prototype.greeting = function() {
   let prefix;
-  let gender = this.gender.toLowerCase()
 
   switch (this.gender.toLowerCase()) {
     case 'male':
@@ -132,7 +131,7 @@ teacher.bio();
 teacher.greeting();
 ```
 
-また新しいECMAScriptの機能に[Classes](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Classes)という、明瞭に継承を行える機能もあります。こちらも説明していきます。
+また新しいECMAScriptの機能に[Classes](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Classes)という、明瞭に継承を行える機能もあります。こちらものちほど説明していきます。
 
 ### 追加の特訓
 
@@ -160,4 +159,131 @@ let student = new Student('michel', 'jackson', 99, 'X', ['dancing']);
 
 ### Objectメンバの概要
 
-続きます。。。
+要約すると、プロパティ、メソッドは4種類あります。
+
+1. コンストラクタ関数の内部で定義され、オブジェクトインスタンスに与えられるもの。
+
+2. コンストラクタ自身で直接定義されたもの。コンストラクタ上でのみ利用可能。静的プロパティ、メソッドという。
+
+3. コンストラクタのプロトタイプに定義されているもの。
+
+4. 上記で見たようにコンストラクタがインスタンス化されたときに作成されるオブジェクト、またはオブジェクトリテラル。
+
+```js
+function Test1(a) { this.a = a; }
+
+function Test2() { let a = 'a'; }
+
+function Test3() {}
+Test3.prototype.a = 'a';
+
+function Test4() {}
+let test = new Test4();
+```
+
+### ECMAScript2015のクラス
+
+ECMAScript2015では、C++やJavaのクラスに似た、より簡単で洗練された構文を使用して再利用可能なクラスを記述する方法としてJavaScriptに[クラス構文](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Classes)を導入しています。
+
+```js
+class Person {
+  constructor(first, last, age, gender, interests) {
+    this.name = {
+      first,
+      last
+    };
+    this.age = age;
+    this.gender = gender;
+    this.interests = interests;
+  }
+
+  greeting() {
+    console.log(`Hi! I'm ${this.name.first}`);
+  }
+
+  farewell() {
+    console.log(`${this.name.first} has left the building. Bye for now!`);
+  }
+}
+
+let han = new Person('Han', 'Solo', 25, 'male', ['Smuggling']);
+han.greeting();
+han.farewell();
+```
+
+### クラス構文による継承
+
+クラス構文を使って継承することをサブクラス、またはサブクラスの作成と言います。
+
+extendsキーワードを使用して、サブクラスを作成します。
+
+```js
+class Teacher extends Person {
+  constructor(first, last, age, gender, interests, subject, grade) {
+    super(first, last, age, gender, interests);
+    this.subject = subject;
+    this.grade = grade;
+  }
+}
+
+let snape = new Teacher('Severus', 'Snape', 58, 'male', ['Potions'], 'Dark arts', 5);
+snape.greeting();
+snape.farewell();
+```
+
+### GetterとSetter
+
+作成するクラスの属性の値を変更したい場合や、属性の最終値がわからない場合があります。このような状況を`getter, setter`で処理できます。
+
+```js
+class Teacher extends Person {
+  constructor(first, last, age, gender, interests, subject, grade) {
+    super(first, last, age, gender, interests);
+    this._subject = subject;
+    this.grade = grade;
+  }
+
+  get subject() {
+    return this._subject;
+  }
+
+  set subject(newSubject) {
+    this._subject = newSubject;
+  }
+}
+
+let snape = new Teacher('Severus', 'Snape', 58, 'male', ['Potions'], 'Dark arts', 5);
+console.log(snape.subject); // "Dark arts"
+snape.subject = "Balloon animaals";
+console.log(snape.subject); // "Balloon animals"
+```
+
+この機能は、プロパティが要求されたり設定されたりするたびにコードを実行したい場合など、非常に便利な場合があります。が、単純なケースでは使用しない方が良いです。
+
+### JavaScriptの継承はいつ使用するのか
+
+プロトタイプと継承はJavaScriptの複雑な部分であり理解が難しいです。しかしJavaScriptの能力と柔軟性は、そのオブジェクトの構造と継承に由来しています。そしてそれがどのように動作するのかは知っておいた方が良いでしょう。
+
+ある意味では継承は常に使用しています。Web APIの機能、文字列、配列、ブラウザ組み込みオブジェクトで定義されたメソッドやプロパティなど、暗黙のうちに継承を使用しています。
+
+コードに継承を使用していることに関して、始めたての頃の小さなプロジェクトではあまり必要と感じないかもしれません。しかしコードの母体が大きくなればなるほど、継承の必要性が目につくようになります。
+
+同じような機能を持つ幾つものオブジェクトを作成していることに気づいた場合は、共有機能を持つ汎化オブジェクトタイプを作成し、特化オブジェクトタイプでそれらの機能を継承させるのがお手軽であり便利です。
+
+プロトタイプチェーンなどを使ったJavaScriptのオブジェクト間での機能を共有を移譲と呼びます。特化オブジェクトは汎化オブジェクトタイプから機能的に移譲されています。
+
+継承を使用する際に、やたらに多いレベルで継承を行わないこと、メソッドとプロパティをどこに定義したかを把握しておくことなど聞いたことがあるかもしれません。組み込むブラウザのオブジェクトのプロトタイプを一時的に変更するコードを書き始めることは可能ですが、あまり良くありません。過剰な継承は終わりない混乱や、そんなコードをデバッグするときは終わりない痛みにつながりかねません。
+
+究極的には、オブジェクトは関数やループのような自身の固有の役割や長所を生かしたコードの再利用の単なる別の形でもあります。もし関連のある変数や関数の一団を作成していることに気づき、それら全てを追跡して適切にパッケージ化したいのであれば、オブジェクトは良いアイデアです。またオブジェクトはある所から別の所にデータの集合を渡したい場合に大変便利です。
+
+これらの事柄の両方がコンストラクタや継承を使用することなく達成できます。もしオブジェクトの単一のインスタンスが必要なだけであれば、オブジェクトリテラルを使用する方がより確実な方法であり、継承は必要なくなるでしょう。
+
+### プロトタイプチェーンを拡張するための代替案
+
+[継承とプロトタイプチェーン](https://developer.mozilla.org/ja/docs/Web/JavaScript/Inheritance_and_the_prototype_chain#different_ways_to_create_objects_and_the_resulting_prototype_chain)をご覧ください。
+
+### まとめ
+
+この時点でJavaScriptオブジェクト、オブジェクト指向プログラミングの基本、プロトタイプと継承、クラスとオブジェクトインスタンスの生成、クラスの機能の追加、サブクラスの生成方法など理解しているはずです。
+
+初学者はおそらく理解できていない！次はJSONを見ていくことになるでしょう。これは楽しみ🤩

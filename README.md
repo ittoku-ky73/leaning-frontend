@@ -101,7 +101,7 @@
       1. [JavaScriptオブジェクトの基本](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Objects/basics.md)
       2. [初心者のためのオブジェクト指向JavaScript](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Objects/oojs.md)
       3. [Objectのプロトタイプ](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Objects/object_prototypes.md)
-      4. [JavaScriptでの継承](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Objects/classes_in_javascript.md)
+      4. [JavaScriptの継承](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Objects/classes_in_javascript.md)
       5. [JSONの操作](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Objects/json.md)
       6. [オブジェクト構築の練習](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Objects/object_building_practice.md)
    4. 非同期JavaScript
