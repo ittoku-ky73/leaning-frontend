@@ -131,4 +131,5 @@
 - [数当て予想ゲーム](https://ittoku-ky73.github.io/leaning-frontend/js/First_steps/Number_guessing_game)
 - [バカ話ジェネレーター](https://ittoku-ky73.github.io/leaning-frontend/js/First_steps/Silly_story_generator)
 - [イメージギャラリー](https://ittoku-ky73.github.io/leaning-frontend/js/Building_blocks/image_gallery)
+- [スーパーヒーローズ](https://ittoku-ky73.github.io/leaning-frontend/js/Objects/superheroes)
 - [バウンシングボールゲーム](https://ittoku-ky73.github.io/leaning-frontend/js/Objects/Adding_bouncing_balls_features)
