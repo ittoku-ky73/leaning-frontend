@@ -132,4 +132,5 @@
 - [バカ話ジェネレーター](https://ittoku-ky73.github.io/leaning-frontend/js/First_steps/Silly_story_generator)
 - [イメージギャラリー](https://ittoku-ky73.github.io/leaning-frontend/js/Building_blocks/image_gallery)
 - [スーパーヒーローズ](https://ittoku-ky73.github.io/leaning-frontend/js/Objects/superheroes)
-- [バウンシングボールゲーム](https://ittoku-ky73.github.io/leaning-frontend/js/Objects/Adding_bouncing_balls_features)
+- [バウンシングボールゲーム](https://ittoku-ky73.github.io/leaning-frontend/js/Objects/Bouncing_balls)
+- [バウンシングボールゲーム（改良版）](https://ittoku-ky73.github.io/leaning-frontend/js/Objects/Adding_bouncing_balls_features)
