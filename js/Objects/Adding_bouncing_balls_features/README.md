@@ -68,7 +68,7 @@ window.addEventListener('keypress', e => {
 `Ball.prototype.draw()`と同じくキャンバス上にオブジェクトインスタンスを描画するという目的を持ちます。またEvilcircle独自の設定は次のとおりです。
 
 - `fillStyle, fill()`を`strokeStyle, stroke()`に変更する。
-- `lineHeight = 3`に変更して線を太くします。
+- `lineWidth = 3`に変更して線を太くします。
 
 **checkBounds()**
 
