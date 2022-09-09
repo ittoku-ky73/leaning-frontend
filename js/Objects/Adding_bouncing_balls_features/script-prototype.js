@@ -3,6 +3,29 @@ const ctx = canvas.getContext('2d');
 const width = canvas.width = window.innerWidth;
 const height = canvas.height = window.innerHeight;
 
+const ballCounter = document.querySelector('p');
+let ballCount = 0;
+
+// return integer from min to max
+function random(min, max) {
+  let num = Math.floor(Math.random() * (max - min + 1)) + min;
+
+  if (num === 0) {
+    return random(min, max);
+  }
+  return num;
+}
+
+// return random color
+function randomRGB() {
+  return `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
+}
+
+// set ball counter text
+function setBallCounterText(count) {
+  ballCounter.textContent = 'boll count: ' + count;
+}
+
 /* constructor: Shape
  * Ball, EvilCircle constructor basic constructor
  */
@@ -72,21 +95,6 @@ Ball.prototype.collisionDetect = function () {
       ball.color = this.color = randomRGB();
     }
   });
-}
-
-// return integer from min to max
-function random(min, max) {
-  let num = Math.floor(Math.random() * (max - min + 1)) + min;
-
-  if (num === 0) {
-    return random(min, max);
-  }
-  return num;
-}
-
-// return random color
-function randomRGB() {
-  return `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
 }
 
 /* constructor: EvilCircle
@@ -163,6 +171,7 @@ EvilCircle.prototype.collisionDetect = function () {
 
     if (distance < this.size + ball.size) {
       delete balls[index];
+      setBallCounterText(--ballCount);
     }
   });
 }
@@ -183,6 +192,10 @@ while (balls.length < 25) {
 
 // define evilCircle object
 let evilCircle = new EvilCircle(250, 250);
+
+// set ball counter
+ballCount = balls.length;
+setBallCounterText(ballCount);
 
 // animation
 function loop() {
