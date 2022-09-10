@@ -105,7 +105,10 @@
       5. [JSONの操作](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Objects/json.md)
       6. [オブジェクト構築の練習](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Objects/object_building_practice.md)
    4. 非同期JavaScript
-      1. 
+      1. [JavaScript非同期処理入門](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Asynchronous/introducing.md)
+      2. [Promiseの使い方](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Asynchronous/promise.md)
+      3. [Promise APIの使い方](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Asynchronous/promise-based_API.md)
+      4. [Worker入門](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Asynchronous/worker.md)
    5. クライアントサイドWeb API
       1. [Web APIの紹介](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Client-side_web_APIs/introduction.md)
       2. [ドキュメントの操作](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Client-side_web_APIs/manipulating_documents.md)
@@ -134,3 +137,4 @@
 - [スーパーヒーローズ](https://ittoku-ky73.github.io/leaning-frontend/js/Objects/superheroes)
 - [バウンシングボールゲーム](https://ittoku-ky73.github.io/leaning-frontend/js/Objects/Bouncing_balls)
 - [バウンシングボールゲーム（改良版）](https://ittoku-ky73.github.io/leaning-frontend/js/Objects/Adding_bouncing_balls_features)
+- [非同期アニメーション](https://ittoku-ky73.github.io/leaning-frontend/js/Asynchronous/Sequencing_animation)
