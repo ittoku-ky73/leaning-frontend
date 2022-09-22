@@ -139,3 +139,4 @@
 - [バウンシングボールゲーム（改良版）](https://ittoku-ky73.github.io/leaning-frontend/js/Objects/Adding_bouncing_balls_features)
 - [非同期アニメーション](https://ittoku-ky73.github.io/leaning-frontend/js/Asynchronous/Sequencing_animation)
 - [ショッピングリスト](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Shopping-list)
+- [缶詰サイト](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Can-store)
