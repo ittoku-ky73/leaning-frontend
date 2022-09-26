@@ -1,0 +1,36 @@
+<!-- Ref: https://mdn.github.io/learning-area/javascript/apis/third-party-apis/youtube/ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>YouTube video search example</title>
+	<script src="https://apis.google.com/js/client.js" type="text/javascript"></script>
+	<script src="https://www.youtube.com/iframe_api" type="text/javascript"></script>
+	<script src="script.js" defer></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+	<h1>YouTube video search example</h1>
+	<div class="wrapper">
+		<div class="controls">
+			<form action="/">
+				<div>
+					<label for="search">Enter a search term (required): </label>
+					<input type="text" name="search" id="search" class="search" required>
+				</div>
+				<div>
+					<button class="submit">Submit search</button>
+				</div>
+			</form>
+		</div>
+		<div class="results">
+			<section></section>
+		</div>
+	</div>
+</body>
+
+</html>
