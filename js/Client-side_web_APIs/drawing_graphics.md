@@ -156,5 +156,109 @@ ctx.fill();
 
 #### テキスト
 
-あしたする。
+canvasには、テキストを描画する機能もあります。テキストは次の2つの方法で書くことができます。
 
+- `fillText()`、塗りつぶされたテキストを描画する。
+- `strokeText()`、アウトラインテキストを描画する。
+
+```javascript
+ctx.strokeStyle = 'white';
+ctx.lineWidth = 1;
+ctx.font = '36px arial';
+ctx.strokeText('Canvas text', 50, 50);
+```
+
+### キャンバスに画像を描画する
+
+外部画像をキャンバスにレンダリングすることもできます。これは、単純な画像、ビデオのフレーム、他のキャンバスのコンテンツです。使い方を見ていきましょう。
+
+```javascript
+let image = new Image();
+image.src = 'test.png';
+
+image.addEventListener('load', function () {
+  // ctx.drawImage(image, 50, 50);
+  ctx.drawImage(image, 20, 20, 185, 175, 50, 50, 185, 175);
+})
+```
+
+drawImage()の引数は、`image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight`となっています。詳しくは、[drawImage()](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/drawImage)をみてみてください。
+
+### ループとアニメーション
+
+これまで、2Dキャンバスの基本的な使い方についてみていきましたが、Canvas APIの１番の目玉となるアニメーションをまだみていません。アニメーションを実装する前にループを少しみていきましょう。
+
+**ループの作成**
+
+まずは、セットアップを済ませ、以下のコードを記述します。
+
+```javascript
+// 座標原点を変更
+ctx.translate(width / 2, height / 2);
+
+// 角度をラジオンに変換
+function degToRad(degrees) {
+  return degrees * Math.PI / 180;
+};
+
+// minからmaxまでの乱数を生成
+function rand(min, max) {
+  return Math.floor(Math.random() * (max-min+1)) + (min);
+}
+
+// 描画する三角形の数
+let length = 250;
+// 次のループで三角形を動かす幅
+let moveOffset = 20;
+
+for(var i = 0; i < length; i++) {
+  ctx.fillStyle = `rgba(${255-length}, 0, ${255-length}, 0.9)`;
+  ctx.beginPath();
+  ctx.moveTo(moveOffset, moveOffset);
+  ctx.lineTo(moveOffset+length, moveOffset);
+  let triHeight = length/2 * Math.tan(degToRad(60));
+  ctx.lineTo(moveOffset+(length/2), moveOffset+triHeight);
+  ctx.lineTo(moveOffset, moveOffset);
+  ctx.fill();
+
+  length--;
+  moveOffset += 0.7;
+  // 次に書く時に、5度回転させる
+  ctx.rotate(degToRad(5));
+}
+```
+
+**アニメーション**
+
+次にキャンバスでアニメーションを実装していきます。アニメーションを実装するには、`window.requestAnimationFrame()`を使用します。また、アニメーションを止めるときは、`window.cancelAnimationFrame()`を使用します。
+
+```javascript
+function loop() {
+  ctx.fillStyle = 'rgba(0, 0, 0, 0.25)';
+  ctx.fillRect(0, 0, width, height);
+
+  for (let i=0; i<balls.length; i++) {
+    balls[i].draw();
+    balls[i].update();
+    balls[i].collisionDetect();
+  }
+
+  requestAnimationFrame(loop);
+}
+
+loop();
+```
+
+詳しくは「[オブジェクト構築の練習](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Objects/object_building_practice.md)」をご覧ください。
+
+### 簡単なキャラクターのアニメーション
+
+ここではキャラクターが画面上を歩くプログラムを書いていきます。まずは「https://github.com/mdn/learning-area/tree/main/javascript/apis/drawing-graphics/loops_animation/7_canvas_walking_animation」からファイルをコピーしてきます。
+
+詳細は『[ソースコード](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Client-side_web_APIs/Canvas-walking-animation)』と『[歩く男](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Canvas-walking-animation)』でみることができます。
+
+参考：[mdn.github.io](https://mdn.github.io/learning-area/javascript/apis/drawing-graphics/loops_animation/7_canvas_walking_animation/)、[ソースコード](https://github.com/mdn/learning-area/tree/main/javascript/apis/drawing-graphics/loops_animation/7_canvas_walking_animation)
+
+### 簡単なドローアプリ
+
+あしたやる。
