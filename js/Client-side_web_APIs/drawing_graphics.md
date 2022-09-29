@@ -2,7 +2,7 @@
 
 > 参考：https://developer.mozilla.org/ja/docs/Learn/JavaScript/Client-side_web_APIs/Drawing_graphics
 
-このページでは、SVG言語から、canvas要素へ描画するAPI（canvas API, WebGL）までのグラフィックプログラミングツールの概要や、その使い方についてみていきます。
+このページでは、canvas要素へ描画するAPI（canvas API, WebGL）のグラフィックプログラミングツールの概要や、その使い方についてみていきます。
 
 ### Webでのグラフィック
 
@@ -115,7 +115,7 @@ ctx.fillWidth = 5;
 
 #### 線を書く
 
-キャンバスに正三角形を書いてみます。beginPath()で線描き開始、moveTo()でペン移動、lineTo()で線を引くという流れになります。数学は難しい。
+キャンバスに正三角形を書いてみます。`beginPath()`で線描き開始、`moveTo()`でペン移動、`lineTo()`で線を引くという流れになります。数学は難しい。
 
 ```javascript
 // 角度をラジアンに変換
@@ -255,10 +255,47 @@ loop();
 
 ここではキャラクターが画面上を歩くプログラムを書いていきます。まずは「https://github.com/mdn/learning-area/tree/main/javascript/apis/drawing-graphics/loops_animation/7_canvas_walking_animation」からファイルをコピーしてきます。
 
-詳細は『[ソースコード](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Client-side_web_APIs/Canvas-walking-animation)』と『[歩く男](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Canvas-walking-animation)』でみることができます。
-
-参考：[mdn.github.io](https://mdn.github.io/learning-area/javascript/apis/drawing-graphics/loops_animation/7_canvas_walking_animation/)、[ソースコード](https://github.com/mdn/learning-area/tree/main/javascript/apis/drawing-graphics/loops_animation/7_canvas_walking_animation)
+- MDN
+  - [ソースコード](https://github.com/mdn/learning-area/tree/main/javascript/apis/drawing-graphics/loops_animation/7_canvas_walking_animation)
+  - [ライブ](https://mdn.github.io/learning-area/javascript/apis/drawing-graphics/loops_animation/7_canvas_walking_animation/)
+- ittoku-ky73
+  - [ソースコード](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Client-side_web_APIs/Canvas-walking-animation)
+  - [ライブ](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Canvas-walking-animation)
 
 ### 簡単なドローアプリ
 
-あしたやる。
+アニメーションの最後の例として、非常に単純な描画アプリを作成します。これは、マウスを押している間は描画できて、離すと描画しなくなるといった、ペンで絵を描くような感じのアプリです。
+
+- MDN
+  - [ソースコード](https://github.com/mdn/learning-area/tree/main/javascript/apis/drawing-graphics/loops_animation/8_canvas_drawing_app)
+  - [ライブ](https://mdn.github.io/learning-area/javascript/apis/drawing-graphics/loops_animation/8_canvas_drawing_app/)
+- ittoku-ky73
+  - [ソースコード](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Client-side_web_APIs/Canvas-drawing-app)
+  - [ライブ](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Canvas-drawing-app)
+
+## WebGL
+
+2Dの次は、3Dキャンバスを見てみましょう。3Dと2DのCanvas APIは全く別のAPIになっています。
+
+WebGLはOpenGL（Open Graphics Library）に基づいており、コンピュータのGPUと直接通信できます。そのため、生のWebGLを記述することは、通常のJavaScriptよりもC++などの低レベル言語に近くなります。これは非常に複雑で強力なものです。
+
+### ネットワークの使用
+
+3Dグラフィックスコードを記述する場合、ほとんど、`Three.js, PlayCanvas, Babylon.js`などのサードパーティのJavaScriptライブラリを使用します。
+
+これらのライブラリを使用することで、プリミティブ形状とカスタム形状を作成、カメラと照明の表示、表面をテクスチャで覆ったりする機能など、より高いレベルでWebGLを処理することができます。
+
+### 立方体を作成する
+
+では実際にWebGLライブラリを使用して簡単な例を見てみましょう。今回はThree.jsを使って3Dの回転する立方体を作成します。
+
+- MDN
+  - [ソースコード](https://github.com/mdn/learning-area/tree/main/javascript/apis/drawing-graphics/threejs-cube)
+  - [ライブ](https://mdn.github.io/learning-area/javascript/apis/drawing-graphics/threejs-cube/)
+- ittoku-ky73
+  - [ソースコード](https://github.com/ittoku-ky73/leaning-frontend/blob/main/js/Client-side_web_APIs/Threejs-cube)
+  - [ライブ](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Threejs-cube)
+
+### まとめ
+
+グラフィックはとても興味深いトピック。ゲームとかも作れる。あと3Dがおもろい。Three.jsを使えば結構簡単に（それでもむずいけど）3Dアニメーションが作れる😆
