@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #ccc;
+}
+
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    background: rgba(255, 255, 255, 0.25);
+    padding: 1rem;
+}
+
+.toolbar>* {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.toolbar #color {
+    display: block;
+    width: 100%;
+}
+
+.toolbar .range {
+    display: flex;
+    gap: 0.5em;
+}

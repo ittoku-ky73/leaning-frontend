@@ -1,0 +1,31 @@
+<!-- References:
+	- https://github.com/mdn/learning-area/tree/main/javascript/apis/drawing-graphics/loops_animation/8_canvas_drawing_app
+	- https://mdn.github.io/learning-area/javascript/apis/drawing-graphics/loops_animation/8_canvas_drawing_app/
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Canvas drawing app</title>
+	<script defer src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="toolbar">
+		<input type="color" name="color" id="color" aria-label="select pen color" value="#ff0000">
+		<div class="range">
+			<input type="range" name="range" id="range" min="2" max="50" value="25" aria-label="select pen size">
+			<span class="output">30</span>
+		</div>
+		<button>Clear canvas</button>
+	</div>
+	<canvas id="drawing_app">
+		<p>Add suitable fallback here.</p>
+	</canvas>
+</body>
+
+</html>
