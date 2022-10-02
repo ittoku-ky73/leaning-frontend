@@ -1,0 +1,38 @@
+<!-- References:
+	- https://github.com/mdn/learning-area/tree/main/javascript/apis/video-audio/finished
+	- https://mdn.github.io/learning-area/javascript/apis/video-audio/finished
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Custom video controls example</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+
+<body>
+	<div class="video-player">
+		<video controls>
+			<source src="video/sintel-short.mp4" type="video/mp4">
+			<source src="video/sintel-short.webm" type="video/webm">
+			<p>Your browser does not support HTML5 video</p>
+		</video>
+		<div class="controls">
+			<button class="play" data-icon="P" aria-label="play pause toggle"></button>
+			<button class="stop" data-icon="S" aria-label="stop"></button>
+			<div class="timer">
+				<div></div>
+				<span aria-label="timer">00:00</span>
+			</div>
+			<button class="rwd" data-icon="B" aria-label="rewind"></button>
+			<button class="fwd" data-icon="F" aria-label="fast forward"></button>
+		</div>
+	</div>
+	<p class="copyright">Sintel &copy; copyright Blender Foundation | <a href="http://www.sintel.org">www.sintel.org</a>.</p>
+</body>
+
+</html>
