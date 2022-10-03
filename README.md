@@ -146,4 +146,4 @@
 - [カスタムビデオコントロール](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Video-audio/)
 - [自己紹介](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Personal-greeting/)
 - [メモアプリ](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Memo-app/)
-- [ビデオストア](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Web-storage/Video-store)
+- [ビデオストア](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Video-store)
