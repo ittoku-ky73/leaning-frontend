@@ -144,3 +144,4 @@
 - [お絵かきアプリ](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Canvas-drawing-app)
 - [回るキューブ](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Threejs-cube)
 - [カスタムビデオコントロール](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Video-audio/)
+- [自己紹介](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Personal-greeting/)

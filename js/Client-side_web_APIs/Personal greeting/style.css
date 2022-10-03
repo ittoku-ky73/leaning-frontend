@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+header,
+footer {
+    background-color: cyan;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form {
+    font-size: 0.8rem;
+}
+
+.personal-greeting {
+    font-weight: bold;
+}
