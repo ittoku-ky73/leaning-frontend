@@ -121,27 +121,53 @@
 ## GitHub Pages
 
 - [手紙のマークアップ](https://ittoku-ky73.github.io/leaning-frontend/html/Introduction_to_HTML/markup_letter)
+
 - [バードウォッチング](https://ittoku-ky73.github.io/leaning-frontend/html/Introduction_to_HTML/structuring_a_page_of_content)
+
 - [Mozillaスプラッシュページ](https://ittoku-ky73.github.io/leaning-frontend/html/Multimedia_and_embedding/mozilla_splash_page)
+
 - [惑星データ](https://ittoku-ky73.github.io/leaning-frontend/html/Tables/structuring_planet_data)
+
 - [スタイルされた記事のページ](https://ittoku-ky73.github.io/leaning-frontend/css/First_steps/styling_a_biography_page)
+
 - [IDカード](https://ittoku-ky73.github.io/leaning-frontend/css/Building_blocks/Fundamental_CSS_comprehension)
+
 - [装飾的なレターヘッド付きの便箋の作成](https://ittoku-ky73.github.io/leaning-frontend/css/Building_blocks/Creating_fancy_letterheaded_paper)
+
 - [かっこいいボックス](https://ittoku-ky73.github.io/leaning-frontend/css/Building_blocks/A_cool_looking_box)
+
 - [コミュニティスクールのホームページ作成](https://ittoku-ky73.github.io/leaning-frontend/css/Styling_text/Typesetting_a_homepage)
+
 - [基本レイアウトの理解](https://ittoku-ky73.github.io/leaning-frontend/css/CSS_layout/Fundamental_Layout_Comprehension)
+
 - [実用的な位置指定の例](https://ittoku-ky73.github.io/leaning-frontend/css/CSS_layout/Practical_positioning_examples)
+
 - [数当て予想ゲーム](https://ittoku-ky73.github.io/leaning-frontend/js/First_steps/Number_guessing_game)
+
 - [バカ話ジェネレーター](https://ittoku-ky73.github.io/leaning-frontend/js/First_steps/Silly_story_generator)
+
 - [イメージギャラリー](https://ittoku-ky73.github.io/leaning-frontend/js/Building_blocks/image_gallery)
+
 - [スーパーヒーローズ](https://ittoku-ky73.github.io/leaning-frontend/js/Objects/superheroes)
+
 - [バウンシングボールゲーム](https://ittoku-ky73.github.io/leaning-frontend/js/Objects/Bouncing_balls)
+
 - [バウンシングボールゲーム（改良版）](https://ittoku-ky73.github.io/leaning-frontend/js/Objects/Adding_bouncing_balls_features)
+
 - [非同期アニメーション](https://ittoku-ky73.github.io/leaning-frontend/js/Asynchronous/Sequencing_animation)
+
 - [ショッピングリスト](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Shopping-list)
+
 - [缶詰サイト](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Can-store)
+
 - [歩く男](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Canvas-walking-animation)
+
 - [お絵かきアプリ](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Canvas-drawing-app)
+
 - [回るキューブ](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Threejs-cube)
+
 - [カスタムビデオコントロール](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Video-audio/)
+
 - [自己紹介](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Personal-greeting/)
+
+- [メモアプリ](https://ittoku-ky73.github.io/leaning-frontend/js/Client-side_web_APIs/Memo-app/)

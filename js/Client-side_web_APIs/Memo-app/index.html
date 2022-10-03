@@ -1,0 +1,48 @@
+<!-- References
+	- https://github.com/mdn/learning-area/tree/main/javascript/apis/client-side-storage/indexeddb/notes
+	- https://mdn.github.io/learning-area/javascript/apis/client-side-storage/indexeddb/notes/
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Memo app - IndexedDB</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+
+<body>
+	<header>
+		<h1>Memo app - IndexedDB</h1>
+	</header>
+	<main>
+		<section class="memo-display">
+			<h2>Memo</h2>
+			<ul></ul>
+		</section>
+		<section class="new-memo">
+			<h2>Enter a new memo</h2>
+			<form action="/">
+				<div>
+					<label for="title">Memo title</label>
+					<input type="text" name="title" id="title" required>
+				</div>
+				<div>
+					<label for="body">Memo text</label>
+					<input type="text" name="body" id="body" required>
+				</div>
+				<div>
+					<button>Create new note</button>
+				</div>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>Copyright nobody. Use the code as you like</p>
+	</footer>
+</body>
+
+</html>
