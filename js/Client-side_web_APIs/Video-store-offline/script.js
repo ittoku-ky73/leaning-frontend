@@ -21,7 +21,7 @@ if ('serviceWorker' in navigator) {
   navigator.serviceWorker
     .register('/leaning-frontend/js/Client-side_web_APIs/Video-store-offline/sw.js')
     .then(() => console.log('sw Registration is success'))
-    .catch((err) => console.error('sw registration error: ' + err));
+    .catch((err) => console.error('sw registration error: ', err));
 }
 
 // Database request success
@@ -48,7 +48,7 @@ async function fetchVideosJson() {
     return init(json);
   }
   catch (err) {
-    console.error('videos.json, fetch probrem: ' + err);
+    console.error('videos.json, fetch probrem: ', err);
   }
 }
 
@@ -108,7 +108,7 @@ function fetchVideosData(video) {
       displayVideo(values[0], values[1], video.name);
       storeVideo(values[0], values[1], video.name);
     })
-    .catch(err => console.error('fetch probrem: ' + err));
+    .catch(err => console.error('fetch probrem: ', err));
 }
 
 function storeVideo(mp4Blob, webmBlob, name) {
@@ -122,8 +122,8 @@ function storeVideo(mp4Blob, webmBlob, name) {
   };
   const request = objectStore.add(record);
 
-  request.addEventListener('success', () => console.log('add video'));
-  request.addEventListener('error', (e) => console.error(e.target.error));
+  request.addEventListener('success', () => console.log('video added'));
+  request.addEventListener('error', (e) => console.error('video add failed: ', e.target.error));
 }
 
 // fetch mp4 and webm blob
