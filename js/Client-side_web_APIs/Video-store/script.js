@@ -82,7 +82,7 @@ function displayVideo(mp4Blob, webmBlob, title) {
   mysource1.src = mp4URL;
   mysource1.type = 'video/mp4';
   mysource2.src = webmURL;
-  mysource1.type = 'video/webm';
+  mysource2.type = 'video/webm';
 
   myvideo.appendChild(mysource1);
   myvideo.appendChild(mysource2);
