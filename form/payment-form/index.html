@@ -1,0 +1,97 @@
+<!-- 
+	- https://github.com/mdn/learning-area/tree/main/html/forms/html-form-structure
+	- https://mdn.github.io/learning-area/html/forms/html-form-structure/payment-form.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Payment form example</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<form>
+		<h1>Payment form</h1>
+		<p>
+			Required fields are followed by
+			<strong><abbr title="required">*</abbr>.</strong>
+		</p>
+		<section>
+			<h2>Contact information</h2>
+			<fieldset>
+				<legend>Title</legend>
+				<ul>
+					<li>
+						<input type="radio" name="title" id="title_1" value="K">
+						<label for="title_1">King</label>
+					</li>
+					<li>
+						<input type="radio" name="title" id="title_2" value="Q">
+						<label for="title_2">queen</label>
+					</li>
+					<li>
+						<input type="radio" name="title" id="title_3" value="J">
+						<label for="title_3">Joker</label>
+					</li>
+				</ul>
+			</fieldset>
+			<p>
+				<label for="name">
+					<span>Name: </span>
+					<strong><abbr title="required">*</abbr></strong>
+				</label>
+				<input type="text" name="username" id="name" required>
+			</p>
+			<p>
+				<label for="mail">
+					<span>E-mail: </span>
+					<strong><abbr title="required">*</abbr></strong>
+				</label>
+				<input type="email" name="usermail" id="mail" required>
+			</p>
+			<p>
+				<label for="pwd">
+					<span>Password: </span>
+					<strong><abbr title="required">*</abbr></strong>
+				</label>
+				<input type="password" name="password" id="pwd" required>
+			</p>
+		</section>
+		<section>
+			<h2>Payment information</h2>
+			<p>
+				<label for="card">
+					<span>Card type:</span>
+				</label>
+				<select name="usercard" id="card">
+					<option value="visa">Visa</option>
+					<option value="mc">Mastercard</option>
+					<option value="amex">American Express</option>
+				</select>
+			</p>
+			<p>
+				<label for="number">
+					<span>Card number:</span>
+					<strong><abbr title="required">*</abbr></strong>
+				</label>
+				<input type="tel" name="cardnumber" id="number" required>
+			</p>
+			<p>
+				<label for="date">
+					<span>Expiration date:</span>
+					<strong><abbr title="required">*</abbr></strong>
+				</label>
+				<input type="text" name="expiration" id="date" placeholder="MMDDYYYY" required>
+			</p>
+		</section>
+		<p>
+			<button type="submit">Validate the payment</button>
+		</p>
+	</form>
+</body>
+
+</html>
