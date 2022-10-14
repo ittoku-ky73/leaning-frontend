@@ -1,0 +1,118 @@
+/* global */
+
+body {
+    margin: 0;
+    padding: 1rem;
+}
+
+body>* {
+    margin-top: 1rem;
+}
+
+body>*:first-child {
+    margin: 0;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    appearance: none;
+}
+
+/* check button container */
+
+.check-button-container input[type="checkbox"] {
+    position: relative;
+    width: 1em;
+    height: 1em;
+    border: 1px solid gray;
+    vertical-align: -4px;
+    color: green;
+}
+
+.check-button-container input[type="checkbox"]::before {
+    content: "✔";
+    position: absolute;
+    font-size: 1.2em;
+    right: -0.3em;
+    top: -0.3em;
+    visibility: hidden;
+}
+
+.check-button-container input[type="checkbox"]:checked::before {
+    visibility: visible;
+}
+
+.check-button-container input[type="checkbox"]:disabled {
+    border-color: black;
+    background-color: #ddd;
+    color: gray;
+}
+
+/* radio button container */
+
+.radio-button-container input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    vertical-align: -5px;
+    outline: none;
+}
+
+.radio-button-container input[type="radio"]::before {
+    display: block;
+    content: " ";
+    width: 10px;
+    height: 10px;
+    border-radius: 6px;
+    background-color: red;
+    font-size: 1.2em;
+    transform: translate(3px, 3px) scale(0);
+    transform-origin: center;
+    transition: all 0.3s ease-in;
+}
+
+.radio-button-container input[type="radio"]:checked::before {
+    transform: translate(3px, 3px) scale(1);
+    transition: all 0.3s cubic-bezier(0.25, 0.25, 0.56, 2);
+}
+
+/* toggle button container */
+
+.toggle-button-container div {
+    position: relative;
+    display: flex;
+    gap: 0.2em;
+    align-items: center;
+}
+
+.toggle-button-container input[type="checkbox"] {
+    width: 44px;
+    height: 24px;
+    border-radius: 12px;
+    border: 2px solid black;
+    background: #eee;
+    transition: all 0.4s;
+}
+
+.toggle-button-container input[type="checkbox"]::before {
+    width: 16px;
+    height: 16px;
+    border-radius: 9px;
+    background-color: black;
+    content: '';
+    position: absolute;
+    top: 0.5em;
+    left: 0.6em;
+    transition: all 0.4s;
+}
+
+.toggle-button-container input[type="checkbox"]:checked {
+    background-color: #ffaa00;
+    transition: all 0.4s;
+}
+
+.toggle-button-container input[type="checkbox"]:checked::before {
+    left: 2.1em;
+    transition: all 0.4s;
+}

@@ -1,0 +1,67 @@
+<!--
+	- https://developer.mozilla.org/ja/docs/Learn/Forms/Advanced_form_styling#%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9%E3%81%A8%E3%83%A9%E3%82%B8%E3%82%AA%E3%83%9C%E3%82%BF%E3%83%B3
+	- https://mdn.github.io/learning-area/html/forms/styling-examples/radios-styled.html
+	- https://mdn.github.io/learning-area/html/forms/toggle-switch-example/
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Check Radio Toggle buttons example</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+
+<body>
+	<div class="check-button-container">
+		<form action="./">
+			<fieldset>
+				<legend>Fruit preferences</legend>
+				<p>
+					<input type="checkbox" name="fruits[]" id="cherry" value="cherry">
+					<label for="cherry">I like cherry</label>
+				</p>
+				<p>
+					<input type="checkbox" name="fruits[]" id="banana" value="banana" disabled>
+					<label for="banana">I can't like banana</label>
+				</p>
+				<p>
+					<input type="checkbox" name="fruits[]" id="strawberry" value="strawberry">
+					<label for="strawberry">I like strawberry</label>
+				</p>
+			</fieldset>
+		</form>
+	</div>
+	<div class="radio-button-container">
+		<form action="./">
+			<fieldset>
+				<legend>Choose your favourite fruit</legend>
+				<p>
+					<input type="radio" name="fruit" id="apple" value="apple">
+					<label for="apple">Apple</label>
+				</p>
+				<p>
+					<input type="radio" name="fruit" id="watermelon" value="watermelon">
+					<label for="watermelon">Watermelon</label>
+				</p>
+				<p>
+					<input type="radio" name="fruit" id="pineapple" value="pineapple">
+					<label for="pineapple">Pineapple</label>
+				</p>
+			</fieldset>
+		</form>
+	</div>
+	<div class="toggle-button-container">
+		<form action="./">
+			<div>
+				<input type="checkbox" name="power" id="power">
+				<label for="power">Off</label>
+			</div>
+		</form>
+	</div>
+</body>
+
+</html>
