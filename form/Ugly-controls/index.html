@@ -1,0 +1,75 @@
+<!-- References:
+	- https://github.com/mdn/learning-area/blob/main/html/forms/styling-examples/ugly-controls.html
+	- https://mdn.github.io/learning-area/html/forms/styling-examples/ugly-controls.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ugly controls example</title>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+
+<body>
+	<h1>Ugly controls example</h1>
+	<form action="./">
+		<div class="select-box">
+			<label for="select">Select box:</label>
+			<div class="select-wrapper">
+				<select name="select" id="select">
+					<option value="banana">Banana</option>
+					<option value="chery">Chery</option>
+					<option value="lemon">Lemon</option>
+				</select>
+			</div>
+		</div>
+		<div class="favorite-fruit">
+			<label for="fruit">Favorite fruit? datalist:</label>
+			<input type="text" name="fruit" id="fruit" list="suggestion">
+			<datalist id="suggestion">
+				<option>apple</option>
+				<option>banana</option>
+				<option>blueberry</option>
+				<option>lemon</option>
+				<option>lychee</option>
+				<option>peach</option>
+				<option>pear</option>
+			</datalist>
+		</div>
+		<div class="datetime-local">
+			<label for="datetime">Datetime local:</label>
+			<input type="datetime-local" name="datetime" id="datetime">
+		</div>
+		<div class="range">
+			<label for="range">Range:</label>
+			<input type="range" name="range" id="range">
+		</div>
+		<div class="color">
+			<label for="color">Color:</label>
+			<input type="color" name="color" id="color">
+		</div>
+		<div class="file-picker">
+			<p>File picker:</p>
+			<label for="file">Select file</label>
+			<input type="file" name="file" id="file" multiple>
+		</div>
+		<div class="progress">
+			<label for="progress">Progress:</label>
+			<progress min="0" max="100" value="75" id="progress">75/100</progress>
+		</div>
+		<div class="meter">
+			<label for="meter">Meter:</label>
+			<meter min="0" max="100" value="50" low="40" high="60" optimum="50">50</meter>
+		</div>
+		<div class="submit-button">
+			<button>Submit?</button>
+		</div>
+	</form>
+</body>
+
+</html>
