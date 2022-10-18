@@ -1,0 +1,175 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+}
+
+body form>* {
+    padding: 1rem;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+
+legend {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    margin: 0;
+}
+
+/* required out-of-range */
+
+.required.out-of-range fieldset p {
+    margin-left: 1em;
+}
+
+.required.out-of-range fieldset label {
+    display: block;
+}
+
+.required.out-of-range input {
+    display: block;
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 300px;
+    padding: 5px;
+    height: 26px;
+    border: 1.5px solid black;
+}
+
+.required.out-of-range input:invalid {
+    border: 1.5px solid red;
+}
+
+.required.out-of-range input+span {
+    position: relative;
+    display: table;
+}
+
+.required.out-of-range input:required+span::after {
+    content: "required";
+    position: absolute;
+    top: -45px;
+    right: -300px;
+    font-size: 0.8em;
+    color: white;
+    background-color: black;
+    padding: 0.2em;
+}
+
+.required.out-of-range input+span::before {
+    position: absolute;
+    top: -24px;
+    right: -320px;
+}
+
+.required.out-of-range input:invalid+span::before {
+    content: "✖";
+    color: red;
+}
+
+.required.out-of-range input:valid+span::before {
+    content: "✓";
+    color: green;
+}
+
+.required.out-of-range input:out-of-range+span::after {
+    content: "Out of range";
+    color: white;
+    background: red;
+}
+
+/* readonly */
+
+.readonly fieldset p {
+    margin-left: 1em;
+}
+
+.readonly input[type="text"] {
+    display: block;
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 300px;
+    padding: 5px;
+    height: 26px;
+    border: 1.5px solid black;
+}
+
+.readonly textarea {
+    display: block;
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 300px;
+    padding: 5px;
+    height: 150px;
+    border: 1.5px solid black;
+}
+
+.readonly input[type="text"]:read-only,
+.readonly textarea:read-only {
+    opacity: 0.6;
+}
+
+/* interminate */
+
+.interminate input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    vertical-align: -5px;
+    outline: none;
+}
+
+.interminate input[type="radio"]::before {
+    display: block;
+    content: " ";
+    width: 10px;
+    height: 10px;
+    border-radius: 6px;
+    background-color: red;
+    font-size: 1.2em;
+    transform: translate(3px, 3px) scale(0);
+    transform-origin: center;
+    transition: all 0.3s ease-in;
+
+}
+
+.interminate input[type="radio"]:checked::before {
+    transform: translate(3px, 3px) scale(1);
+    transition: all 0.3s cubic-bezier(0.25, 0.25, 0.56, 2);
+}
+
+.interminate input[type="radio"]:indeterminate {
+    border: 2px solid red;
+    animation: 0.4s linear infinite alternate border-pulse-indeterminate;
+}
+
+@keyframes border-pulse-indeterminate {
+    from {
+        border: 2px solid red;
+    }
+
+    to {
+        border: 6px solid red;
+    }
+}

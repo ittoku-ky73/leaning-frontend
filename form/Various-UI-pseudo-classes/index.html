@@ -1,0 +1,89 @@
+<!-- References:
+	- https://mdn.github.io/learning-area/html/forms/pseudo-classes/out-of-range.html
+	- https://mdn.github.io/learning-area/html/forms/pseudo-classes/enabled-disabled-shipping.html
+	- https://mdn.github.io/learning-area/html/forms/pseudo-classes/readonly-confirmation.html
+	- https://mdn.github.io/learning-area/html/forms/pseudo-classes/radios-checked-indeterminate.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Various UI pseudo classes</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+
+<body>
+	<form action="./">
+		<div class="required out-of-range">
+			<fieldset>
+				<legend>Feedback form</legend>
+				<p>Required fields are labelled with "required".</p>
+				<div>
+					<label for="name">Name: </label>
+					<input id="name" name="name" type="text" required="">
+					<span></span>
+				</div>
+				<div>
+					<label for="age">Age (must be 12+): </label>
+					<input id="age" name="age" type="number" min="12" max="120" required="">
+					<span></span>
+				</div>
+				<div>
+					<label for="email">Email address (include if you want a response): </label>
+					<input id="email" name="email" type="email">
+					<span></span>
+				</div>
+				<div>
+					<button>Submit</button>
+				</div>
+			</fieldset>
+		</div>
+		<div class="readonly">
+			<fieldset>
+				<legend contenteditable="true">Check shipping details</legend>
+				<div>
+					<label for="shipping-checkbox">Same as shipping details:</label>
+					<input type="checkbox" name="shipping-checkbox" id="shipping-checkbox" checked>
+				</div>
+				<div>
+					<label for="shipping-name">Name: </label>
+					<input id="shipping-name" name="shipping-name" type="text" value="ittoku-ky73">
+				</div>
+				<div>
+					<label for="shipping-address">Address: </label>
+					<textarea id="shipping-address" name="shipping-address">Japan osaka</textarea>
+				</div>
+				<div>
+					<label for="shipping-pcode">Zip/postal code: </label>
+					<input id="shipping-pcode" name="shipping-pcode" type="text" value="102938">
+				</div>
+				<div>
+					<button>Submit</button>
+				</div>
+			</fieldset>
+		</div>
+		<div class="interminate">
+			<fieldset>
+				<legend>Choose your favourite fruit</legend>
+				<div>
+					<input type="radio" name="fruit" value="cherry" id="cherry">
+					<label for="cherry">Cherry</label>
+				</div>
+				<div>
+					<input type="radio" name="fruit" value="banana" id="banana">
+					<label for="banana">Banana</label>
+				</div>
+				<div>
+					<input type="radio" name="fruit" value="strawberry" id="strawberry">
+					<label for="strawberry">Strawberry</label>
+				</div>
+			</fieldset>
+		</div>
+	</form>
+</body>
+
+</html>
