@@ -1,0 +1,52 @@
+<!-- References:
+	- https://github.com/mdn/learning-area/blob/main/html/forms/form-validation/detailed-custom-validation.html
+	- https://mdn.github.io/learning-area/html/forms/form-validation/detailed-custom-validation.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JavaScript form validation example</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://rickharrison.github.io/validate.js/validate.min.js" type="text/javascript" defer></script>
+	<script src="script.js" defer></script>
+</head>
+
+<body>
+	<fieldset>
+		<legend>Contact form</legend>
+		<form action="./">
+			<ul>
+				<li>
+					<label for="name">
+						Name:
+						<span aria-label="required">*</span>
+					</label>
+					<input type="text" name="name" id="name" required>
+				</li>
+				<li>
+					<label for="email">
+						Email:
+						<span aria-label="required">*</span>
+					</label>
+					<input type="email" name="email" id="email" required>
+				</li>
+				<li>
+					<label for="message">
+						Message:
+						<span aria-label="required">*</span>
+					</label>
+					<textarea name="message" id="message" cols="30" rows="10" required></textarea>
+				</li>
+				<li>
+					<input type="submit" value="Send message">
+				</li>
+			</ul>
+		</form>
+	</fieldset>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 1rem;
+}
+
+fieldset {
+    padding: 1rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+.errorbox {
+    display: none;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 1em;
+    border: 1.5px solid red;
+    border-radius: 8px;
+    padding: 0.5em;
+    background-color: pink;
+}
+
+.errorbox ul {
+    margin: 0;
+    padding: 0;
+    list-style: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+    font-size: 0.8em;
+}
+
+form ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    display: block;
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    border: 1.5px solid black;
+}
+
+input.invalid,
+textarea.invalid {
+    border-color: red;
+}
+
+input[type="text"],
+input[type="email"] {
+    height: 30px;
+}
+
+textarea {
+    height: 150px;
+    max-width: 300px;
+}
+
+input[type="submit"] {
+    display: block;
+    font-family: inherit;
+    font-size: 100%;
+    width: 100%;
+    max-width: 150px;
+    padding: 5px;
+    height: 30px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+}
+
+input[type="submit"]:hover {
+    background-color: #ddd;
+}
+
+input[type="submit"]:active {
+    background-color: white;
+    opacity: 0.8;
+    box-shadow: inset 1px 1px 1px black;
+}

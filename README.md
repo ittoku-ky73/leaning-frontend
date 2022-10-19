@@ -166,3 +166,4 @@
 - [劣悪なフォームのスタイル付け](https://ittoku-ky73.github.io/leaning-frontend/form/Ugly-controls)
 - [さまざまなUI擬似要素](https://ittoku-ky73.github.io/leaning-frontend/form/Various-UI-pseudo-classes)
 - [組み込みフォーム検証](https://ittoku-ky73.github.io/leaning-frontend/Embedded-form-validation)
+- [JavaScriptフォーム検証](https://ittoku-ky73.github.io/leaning-frontend/Javascript-form-validation)
