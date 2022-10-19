@@ -1,0 +1,63 @@
+<!-- References:
+	- https://github.com/mdn/learning-area/blob/main/html/forms/form-validation/full-example.html
+	- https://mdn.github.io/learning-area/html/forms/form-validation/full-example.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Embedded form validation example</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<form action="./">
+		<div>
+			<fieldset>
+				<legend>
+					Do you have a driver's license?
+					<span aria-label="required">*</span>
+				</legend>
+				<input type="radio" name="lisence" id="radio1" value="yes" required>
+				<label for="radio1">Yes</label>
+				<input type="radio" name="lisence" id="radio2" value="no" required>
+				<label for="radio2">No</label>
+			</fieldset>
+		</div>
+		<div>
+			<label for="age">How old are you?</label>
+			<input type="number" name="age" id="age" min="12" max="120" step="1" pattern="\d+">
+		</div>
+		<div>
+			<label for="fruit">
+				What's your favorite fruit?
+				<span aria-label="required">*</span>
+			</label>
+			<input type="text" name="fruit" id="fruit" list="fruits_list" required pattern="[Bb]anana|[Cc]herry|[Aa]pple|[Ss]trawberry|[Ll]emon|[Oo]range">
+			<datalist id="fruits_list">
+				<option>Banana</option>
+				<option>Cherry</option>
+				<option>Apple</option>
+				<option>Strawberry</option>
+				<option>Lemon</option>
+				<option>Orange</option>
+			</datalist>
+		</div>
+		<div>
+			<label for="email">What's your e-mail address?</label>
+			<input type="email" name="email" id="email">
+		</div>
+		<div>
+			<label for="msg">Leave a short message</label>
+			<textarea name="msg" id="msg" maxlength="140"></textarea>
+		</div>
+		<div>
+			<button>Submit</button>
+		</div>
+	</form>
+</body>
+
+</html>
