@@ -1,0 +1,10 @@
+FROM python:alpine
+
+RUN pip install --upgrade pip
+RUN pip install flask
+
+WORKDIR /app
+
+COPY ./app /app
+
+CMD ["flask", "run", "--host=0.0.0.0"]
