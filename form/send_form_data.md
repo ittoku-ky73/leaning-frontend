@@ -147,7 +147,7 @@ form.htmlは前の例と同じで、greeting.htmlは次のように書きます�
 </html>
 ```
 
-Pythonの例は、[こちら（ソースコード）](https://github.com/ittoku-ky73/leaning-frontend/tree/main/form/Python-post-example)にあります。
+Pythonの例は、[こちら（ソースコード）](https://github.com/ittoku-ky73/leaning-frontend/tree/main/form/Python-form-example)にあります。
 
 ### その他の言語やフレームワーク
 
