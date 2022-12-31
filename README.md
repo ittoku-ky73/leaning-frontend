@@ -172,3 +172,4 @@
 > 参考：https://www.typescriptlang.org/docs/handbook/intro.html
 
 1. [The TypeScript Handbook](https://github.com/ittoku-ky73/leaning-frontend/blob/main/ts/intro.md)
+2. [TypeScript for JavaScript Programmers](https://github.com/ittoku-ky73/leaning-frontend/blob/main/ts/ts_for_js_programmers.md)
