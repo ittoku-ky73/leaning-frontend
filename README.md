@@ -1,13 +1,12 @@
 # leaning-frontend
 
-> 参考：https://developer.mozilla.org/ja/docs/Learn/Front-end_web_developer
->
-> このリポジトリでは、フロントエンドを学ぶ上で大事なこと、使えることを書いていきます。
+このリポジトリでは、フロントエンドを学ぶ上で大事なこと、使えることを書いていきます。
 
-## 読んでいく順序
+## MDN Web Docs
+
+> 参考：https://developer.mozilla.org/ja/docs/Learn/Front-end_web_developer
 
 1. web/
-
    1. [基本的なソフトウェアのインストール](https://github.com/ittoku-ky73/leaning-frontend/blob/main/web/installing_basic_software.md)
    2. [WebおよびWeb標準](https://github.com/ittoku-ky73/leaning-frontend/blob/main/web/the_web_and_web_standards.md)
    3. [学び、助けを得る](https://github.com/ittoku-ky73/leaning-frontend/blob/main/web/learning_and_getting_help.md)
@@ -167,3 +166,9 @@
 - [さまざまなUI擬似要素](https://ittoku-ky73.github.io/leaning-frontend/form/Various-UI-pseudo-classes)
 - [組み込みフォーム検証](https://ittoku-ky73.github.io/leaning-frontend/Embedded-form-validation)
 - [JavaScriptフォーム検証](https://ittoku-ky73.github.io/leaning-frontend/Javascript-form-validation)
+
+## TypeScript Handbook
+
+> 参考：https://www.typescriptlang.org/docs/handbook/intro.html
+
+1. [The TypeScript Handbook](https://github.com/ittoku-ky73/leaning-frontend/blob/main/ts/intro.md)
