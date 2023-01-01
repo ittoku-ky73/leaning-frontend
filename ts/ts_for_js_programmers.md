@@ -1,5 +1,7 @@
 # JavaScriptプログラマのためのTypeScript
 
+> 参考: https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
+
 TypeScriptとJavaScriptは変わった関係にあります。TypeScriptはJavaScriptの機能の上に、型システムを導入しています。
 例えば、JavaScriptでは文字列や数値などのプリミティブを提供しますが、型チェックなどは行いません。それをTypeScriptではチェックします。
 

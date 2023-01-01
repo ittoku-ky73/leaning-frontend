@@ -171,5 +171,6 @@
 
 > 参考：https://www.typescriptlang.org/docs/handbook/intro.html
 
-1. [The TypeScript Handbook](https://github.com/ittokun/learning-frontend/blob/main/ts/intro.md)
-2. [TypeScript for JavaScript Programmers](https://github.com/ittokun/learning-frontend/blob/main/ts/ts_for_js_programmers.md)
+1. [TypeScript ハンドブック](https://github.com/ittokun/learning-frontend/blob/main/ts/intro.md)
+2. [JSプログラマのためのTypeScript](https://github.com/ittokun/learning-frontend/blob/main/ts/ts_for_js_programmers.md)
+2. [TypeScriptの基本](https://github.com/ittokun/learning-frontend/blob/main/ts/basics.md)
