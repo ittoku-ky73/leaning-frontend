@@ -173,4 +173,5 @@
 
 1. [TypeScript ハンドブック](https://github.com/ittokun/learning-frontend/blob/main/ts/intro.md)
 2. [JSプログラマのためのTypeScript](https://github.com/ittokun/learning-frontend/blob/main/ts/ts_for_js_programmers.md)
-2. [TypeScriptの基本](https://github.com/ittokun/learning-frontend/blob/main/ts/basics.md)
+3. [TypeScriptの基本](https://github.com/ittokun/learning-frontend/blob/main/ts/basics.md)
+4. [一般的なタイプ](https://github.com/ittokun/learning-frontend/blob/main/ts/everyday_types.md)
