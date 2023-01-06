@@ -1,13 +1,32 @@
-// import React from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const user = {
+  firstName: 'ittokun',
+  lastName: 'neo',
+};
+
+const element = getGreeting(user);
+
+function formatName(user: { firstName: string, lastName: string}): string {
+  return user.firstName + ' ' + user.lastName;
+}
+
+function getGreeting(user?: any): any {
+  if (user) {
+    return React.createElement('h1', { className: "greeting" }, `Hello ${formatName(user)}!`);
+  } else {
+    return <h1>Hello, Stranger.</h1>;
+  }
+}
+
 const root = ReactDOM.createRoot(
   document.querySelector('#root') as HTMLElement
 );
-root.render(<h1>Hello World!!!</h1>)
+root.render(element)
 // root.render(
 //   <React.StrictMode>
 //     <App />
