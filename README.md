@@ -183,3 +183,4 @@
 1. [hello_world](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/hello_world.md)
 2. [JSX](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/jsx.md)
 3. [render](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/render.md)
+4. [component and props](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/component_props.md)
