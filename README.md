@@ -185,3 +185,4 @@
 3. [render](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/render.md)
 4. [component and props](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/component_props.md)
 5. [state and lifecycle](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/state_lifecycle.md)
+6. [handling events](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/handling_events.md)
