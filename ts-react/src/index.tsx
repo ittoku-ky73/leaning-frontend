@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
@@ -47,56 +47,94 @@ import reportWebVitals from './reportWebVitals';
 //   )
 // }
 
-type User = {
-  avatarUrl: string;
-  name: string;
-};
+// type User = {
+//   avatarUrl: string;
+//   name: string;
+// };
 
-function Comment(props: { author: User, text: string, date: string }): JSX.Element {
-  return (
-    <div className="Comment">
-      <UserInfo user={props.author} />
-      <div className="Comment-text">
-        {props.text}
-      </div>
-      <div className="Comment-date">
-        {props.date}
-      </div>
-    </div>
-  );
+// function Comment(props: { author: User, text: string, date: string }): JSX.Element {
+//   return (
+//     <div className="Comment">
+//       <UserInfo user={props.author} />
+//       <div className="Comment-text">
+//         {props.text}
+//       </div>
+//       <div className="Comment-date">
+//         {props.date}
+//       </div>
+//     </div>
+//   );
+// }
+
+// function UserInfo(props: { user: User }): JSX.Element {
+//   return (
+//     <div className="UserInfo">
+//       <Avatar user={props.user} />
+//       <div className="UserInfo-name">
+//         {props.user.name}
+//       </div>
+//     </div>
+//   )
+// }
+
+// function Avatar(props: { user: User }): JSX.Element {
+//   return (
+//     <img className="Avatar"
+//       src={props.user.avatarUrl}
+//       alt={props.user.name}
+//     />
+//   );
+// } 
+
+// const element = <Comment
+//   author={{ avatarUrl: "https://github.com/ittokun.png", name: "ittokun" }}
+//   text="1 comment"
+//   date={Date.now().toString()}
+// />;
+
+class Clock extends React.Component<{}, { date: Date }> {
+  timerID: any;
+
+  constructor(props: any) {
+    super(props);
+    this.state = { date: new Date() };
+  }
+
+  componentDidMount(): void {
+    this.timerID = setInterval(
+      () => this.tick(),
+      1000
+    );
+  }
+
+  componentWillUnmount(): void {
+      clearInterval(this.timerID);
+  }
+
+  tick(): void {
+    this.setState({
+      date: new Date(),
+    });
+  }
+
+  render() {
+    return (
+	    <div>
+	      <h1>Hello World!</h1>
+	      <h2>
+	        It is {this.state.date.toLocaleTimeString()}.
+	      </h2>
+	    </div>
+	  );
+  }
 }
-
-function UserInfo(props: { user: User }): JSX.Element {
-  return (
-    <div className="UserInfo">
-      <Avatar user={props.user} />
-      <div className="UserInfo-name">
-        {props.user.name}
-      </div>
-    </div>
-  )
-}
-
-function Avatar(props: { user: User }): JSX.Element {
-  return (
-    <img className="Avatar"
-      src={props.user.avatarUrl}
-      alt={props.user.name}
-    />
-  );
-} 
-
-const element = <Comment
-  author={{ avatarUrl: "https://github.com/ittokun.png", name: "ittokun" }}
-  text="1 comment"
-  date={Date.now().toString()}
-/>;
 
 const root = ReactDOM.createRoot(
   document.querySelector('#root') as HTMLElement
 );
 
-root.render(element)
+root.render(<Clock />);
+// root.render(element)
 // setInterval(tick, 1000);
 // root.render(
 //   <React.StrictMode>
