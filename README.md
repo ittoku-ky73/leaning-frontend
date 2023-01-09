@@ -180,9 +180,10 @@
 
 > 参考: https://ja.reactjs.org/docs/hello-world.html
 
-1. [hello_world](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/hello_world.md)
+1. [やっはろー](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/hello_world.md)
 2. [JSX](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/jsx.md)
-3. [render](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/render.md)
-4. [component and props](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/component_props.md)
-5. [state and lifecycle](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/state_lifecycle.md)
-6. [handling events](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/handling_events.md)
+3. [レンダー](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/render.md)
+4. [コンポーネントとprops](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/component_props.md)
+5. [stateとライフサイクル](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/state_lifecycle.md)
+6. [イベント処理](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/handling_events.md)
+7. [条件付きレンダリング](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/conditional_rendering.md)
