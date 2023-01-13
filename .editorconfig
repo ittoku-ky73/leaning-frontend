@@ -14,7 +14,7 @@ indent_size = 4
 
 # Matches multiple files with brace expansion notation
 # Set default charset
-[*.{js,md}]
+[*.{js,md,tsx}]
 charset = utf-8
 indent_style = space
 indent_size = 2

@@ -45,13 +45,13 @@ type TemperatureInputProps = {
   scale: string;
   temperature: string;
   onTemperatureChange: (num: string) => void;
-}
+};
 
 class TemperatureInput extends React.Component<TemperatureInputProps, {}> {
   constructor(props: TemperatureInputProps) {
     super(props);
 
-	this.handleChange = this.handleChange.bind(this);
+    this.handleChange = this.handleChange.bind(this);
   }
 
   handleChange(event: React.ChangeEvent<HTMLInputElement>) {
@@ -60,18 +60,18 @@ class TemperatureInput extends React.Component<TemperatureInputProps, {}> {
 
   render(): React.ReactNode {
     const temperature = this.props.temperature;
-	const scale = this.props.scale;
+    const scale = this.props.scale;
 
     return (
-	  <fieldset>
-	    <legend>Enter temperature in {scaleNames[scale]}:</legend>
-		<input
-		  type="number"
-		  value={temperature}
-		  onChange={this.handleChange}
-		/>
-	  </fieldset>
-	)
+      <fieldset>
+        <legend>Enter temperature in {scaleNames[scale]}:</legend>
+        <input
+          type="number"
+          value={temperature}
+          onChange={this.handleChange}
+        />
+      </fieldset>
+    );
   }
 }
 
@@ -90,12 +90,12 @@ class Calculator extends React.Component<{}, CalculatorState> {
   constructor(props: {}) {
     super(props);
     this.state = {
-	  scale: "c",
-	  temperature: ""
-	};
+      scale: "c",
+      temperature: ""
+    };
 
-	this.handleCelsiusChange = this.handleCelsiusChange.bind(this);
-	this.handleFahrenheitChange = this.handleFahrenheitChange.bind(this);
+    this.handleCelsiusChange = this.handleCelsiusChange.bind(this);
+    this.handleFahrenheitChange = this.handleFahrenheitChange.bind(this);
   }
 
   handleCelsiusChange(temperature: string) {
@@ -112,25 +112,25 @@ class Calculator extends React.Component<{}, CalculatorState> {
     const celsius = (scale === "f")
       ? tryConvert(parseFloat(temperature), toCelsius)
       : temperature;
-	const fahrenheit = (scale === "c")
+    const fahrenheit = (scale === "c")
       ? tryConvert(parseFloat(temperature), toFahrenheit)
       : temperature;
 
     return (
-	  <div>
+      <div>
         <TemperatureInput
-		  scale="c"
+          scale="c"
           temperature={celsius}
           onTemperatureChange={this.handleCelsiusChange}
         />
         <TemperatureInput
-		  scale="f"
+          scale="f"
           temperature={fahrenheit}
           onTemperatureChange={this.handleFahrenheitChange}
         />
         <BoilingVerdict celsius={parseFloat(celsius)}/>
-	  </div>
-	)
+      </div>
+    );
   }
 }
 

@@ -190,3 +190,4 @@
 8.  [リストとキー](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/list_and_key.md)
 9.  [ウェブフォーム](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/form.md)
 10. [stateの引き上げ](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/lifting_state_up.md)
+11. [Composition 対 Inheritance](https://github.com/ittokun/learning-frontend/blob/main/ts-react/doc/composition_inheritance.md)
