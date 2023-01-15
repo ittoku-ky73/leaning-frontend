@@ -116,6 +116,7 @@
       5. [グラフィックの描画](https://github.com/ittokun/learning-frontend/blob/main/js/Client-side_web_APIs/drawing_graphics.md)
       6. [動画と音声のAPI](https://github.com/ittokun/learning-frontend/blob/main/js/Client-side_web_APIs/video_and_audio_APIs.md)
       7. [クライアントサイドストレージ](https://github.com/ittokun/learning-frontend/blob/main/js/Client-side_web_APIs/client-side_storage.md)
+   - [JavaScriptモジュール](https://github.com/ittokun/learning-frontend/blob/main/js/javascript_modules/README.md)
 2. HTML form
    1. [HTMLフォームを始めよう](https://github.com/ittokun/learning-frontend/blob/main/form/getting_started.md)
    2. [フォームの構築](https://github.com/ittokun/learning-frontend/blob/main/form/structure_form.md)
